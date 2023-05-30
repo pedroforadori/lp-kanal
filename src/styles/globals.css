@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#customRange1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 40px;
+  background: #000;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+#customRange1::-moz-range-thumb {
+  width: 20px;
+  height: 50px;
+  background: #000;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+/* #customRange1:after{
+  position:absolute;
+  top: -17px;
+  left: 65px;
+  display:block;
+  width: 2px;
+  height: 39px;
+  content:"";
+  background: #fff;
+  -webkit-transform:rotate(0deg);
+     -moz-transform:rotate(0deg);
+} */
+
+/* finish */
+#frame:after {
+  left: auto;
+  right: 10px;
+  background: rgba(124,124,124,0.9);
+}
+
+/* outer circle */
+#frame a#button	{	
+  position:relative;
+  display:inline-block;
+  width:60px;
+  height:60px;
+  margin-top:22px;
+  text-align:center;
+  border-top: 1px dashed red;
+  border-right: 1px dashed red;
+  border-left: 1px dashed red;
+  -webkit-border-radius:100%;
+     -moz-border-radius:100%;
+          border-radius:100%;
+}
+#frame a#button:hover {
+  -webkit-animation-name: adjustVolume;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 2;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 2s;
+
+  -moz-animation-name: adjustVolume;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: 2;
+  -moz-animation-direction: alternate;
+  -moz-animation-duration: 2s;
+}
+
+/* inner circle */
+#frame a#button:before	{	
+  position:absolute;
+  top:3px;
+  left:4px;
+  width:50px;
+  height:50px;
+  content:"";
+  border: 1px solid #fff;
+  -webkit-border-radius:100%;
+     -moz-border-radius:100%;
+          border-radius:100%;
+  background-color: #000;
+}
+
+/* line */
+#frame a#button:after	{	
+  position:absolute;
+  top: 4px;
+  left: 29px;
+  display:block;
+  width: 2px;
+  height: 25px;
+  content:"";
+  background: #fff;
+  -webkit-transform:rotate(0deg);
+     -moz-transform:rotate(0deg);
+}
+@-webkit-keyframes adjustVolume {
+  from {                                     }
+  to   { 
+    -webkit-transform: rotateZ(270deg); 
+    -webkit-box-shadow:0 0 10px #CCC;
+  }
+}
+@-moz-keyframes adjustVolume {
+  from {                                     }
+  to   { 
+    -moz-transform: rotateZ(270deg); 
+    -moz-box-shadow:0 0 10px #CCC;
+  }
+}
+
+.bg-one{
+  background: linear-gradient(180deg, #121323 0%, rgba(42, 43, 79, 0) 100%);
+}
