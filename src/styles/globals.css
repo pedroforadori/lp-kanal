@@ -115,3 +115,57 @@
 .bg-one{
   background: linear-gradient(180deg, #121323 0%, rgba(42, 43, 79, 0) 100%);
 }
+.rec .rec-carousel{
+  width: 35%;
+}
+/* square buttons */
+.rec.rec-arrow {
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  background-color: transparent;
+}
+.rec.rec-arrow:focus:enabled {
+  background-color: transparent;
+  box-shadow: none;
+}
+.rec.rec-arrow:hover:enabled {
+  background-color: transparent;
+  box-shadow: none;
+}
+.rec.rec-arrow:hover:disabled {
+  background-color: transparent;
+  box-shadow: none;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 1px lightgrey;
+  background-color: transparent;
+}
+.rec.rec-arrow:disabled {
+  visibility: visible;
+}
+.rec.rec-dot.rec.rec-dot_active,
+.rec.rec-dot.rec.rec-dot_active:hover,
+.rec.rec-dot.rec.rec-dot_active:focus
+{
+  box-shadow: none;
+  background-color: #FF4C00;
+}
+.rec.rec-dot:hover{
+  box-shadow: none;
+  background-color: #FF4C00;
+}
+
+.rec .rec-dot{
+  background-color: #D9D9D9;
+}

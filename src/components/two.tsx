@@ -3,7 +3,7 @@ import { FacebookLogo, InstagramLogo, WhatsappLogo, EnvelopeSimple } from 'phosp
 
 export default function Two() {
     return (
-        <div className="w-full h-[200vh] flex flex-col items-center bg-gradient-to-b from from-[#F7EAFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90%">
+        <div className="w-full h-[200vh] flex flex-col items-center bg-gradient-to-b from from-[#FFFFFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90%">
             <Image className="absolute left-[-20px]" src="/assets/ellipse-blue.png" alt="logo" width={286} height={366}/>
             <div className="grid grid-cols-2 ml-44">
                 <div className="mt-52 w-[600px]">
@@ -37,47 +37,54 @@ export default function Two() {
                             Vantagens para o Banker do Kanal.
                         </div>
                         <div className="flex flex-row gap-3 mt-12">
-                            <div className="w-[388px] h-[175px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col">
-                                <span className="w-7 h-7 rounded-full bg-[#6D3BF2] absolute left-[600px]" />
-                                <p className="text-center mt-9 text-xl font-semibold">Tecnologia</p>
-                                <p className="px-6 mt-6 text-base">Plataforma 100% na sua mão, 24/7! Status em tempo real e captação de documentação de maneira ágil.</p>
+                            <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[100px] top-[-10px]" />
+                            <div className="w-[388px] h-[180px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col"> 
+                                <p className="flex flex-row mt-9 text-xl items-center justify-center gap-4">
+                                    <Image className="" src="/assets/ico/ico-ti.png" alt="logo" width={30} height={30}/>  
+                                    <span>Tecnologia</span>
+                                </p>
+                                <p className="px-6 mt-6 text-base font-light">Plataforma 100% na sua mão, 24/7! Status em tempo real e captação de documentação de maneira ágil.</p>
                             </div>
-                            <div className="w-[388px] h-[175px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px]">
-                                <span className="w-7 h-7 rounded-full bg-[#6D3BF2] absolute left-[1000px]" />
-                                <p className="text-center mt-9 text-xl font-semibold">Liberdade Financeira</p>
-                                <p className="px-6 mt-6 text-base">Trabalhe de onde quiser! <br /> Liberdade financeira e geográfica. Dedique seu tempo ao que realmente importa.</p>
+                            <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[100px] top-[-10px]" />
+                            <div className="w-[388px] h-[180px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px]">                
+                                <p className="flex flex-row mt-9 text-xl items-center justify-center gap-4">
+                                    <Image className="" src="/assets/ico/ico-finan.png" alt="logo" width={30} height={30}/> 
+                                    Liberdade Financeira
+                                
+                                </p>
+                                <p className="px-6 mt-6 text-base font-light">Trabalhe de onde quiser! <br /> Liberdade financeira e geográfica. Dedique seu tempo ao que realmente importa.</p>
                             </div>
                         </div>
                         
                     </div>
                 </div>
-                <Image className="absolute left-[-100px]" src="/assets/ellipse-green.png" alt="logo" width={286} height={366}/>
-                <div className="flex flex-row gap-7 mt-12">
-                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-center px-6">
-                        <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-45px]" />
-                        <Image className="" src="/assets/suport.png" alt="logo" width={50} height={50}/>
-                        <p className="text-xl font-semibold mb-4">Tecnologia</p>
-                        <p>Plataforma 100% na sua mão, 24/7! Status em tempo real e captação de documentação de maneira ágil.</p>
+                <Image className="absolute left-[-200px]" src="/assets/ellipse-green.png" alt="logo" width={450} height={366}/>
+                <Image className="absolute right-0" src="/assets/ellipse-pink.png" alt="logo" width={250} height={250}/>
+                <div className="flex flex-row gap-10 mt-12 justify-center">
+                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6">
+                        <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px]" />
+                        <Image className="mb-4" src="/assets/ico/ico-suport.png" alt="logo" width={50} height={50}/>
+                        <p className="text-xl mb-4">Suporte exclusivo</p>
+                        <p className="font-light">Apoio integral. <br /> Tenha um consultor exclusivo para auxilia-lo nas suas operações do começo ao fim.</p>
                     </div>
-                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-center px-6">
-                    <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-45px]" />
-                        <Image className="" src="/assets/suport.png" alt="logo" width={50} height={50}/>
-                        <p className="text-xl font-semibold mb-4">Tecnologia</p>
-                        <p>Plataforma 100% na sua mão, 24/7! Status em tempo real e captação de documentação de maneira ágil.</p>
+                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6">
+                    <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px]" />
+                        <Image className="mb-4" src="/assets/ico/ico-autonomia.png" alt="logo" width={50} height={50}/>
+                        <p className="text-xl mb-4">Autonomia</p>
+                        <p className="font-light">Cadastre e acompanhe suas propostas diretamente na plataforma.</p>
                     </div>
-                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-center px-6">
-                        <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-45px]" />
-                        <Image className="" src="/assets/suport.png" alt="logo" width={50} height={50}/>
-                        <p className="text-xl font-semibold mb-4">Tecnologia</p>
-                        <p>Plataforma 100% na sua mão, 24/7! Status em tempo real e captação de documentação de maneira ágil.</p>
+                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6">
+                        <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px]" />
+                        <Image className="mb-4" src="/assets/ico/ico-efic.png" alt="logo" width={50} height={50}/>
+                        <p className="text-lg mb-4">Eficiência e assertividade</p>
+                        <p className="font-light">Unificação dos dados cadastrais com bases de dados públicas. Análise com birôs de crédito reconhecidos no mercado.</p>
                     </div>
-                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-center px-6">
-                        <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-45px]" />
-                        <Image className="" src="/assets/suport.png" alt="logo" width={50} height={50}/>
-                        <p className="text-xl font-semibold mb-4">Tecnologia</p>
-                        <p>Plataforma 100% na sua mão, 24/7! Status em tempo real e captação de documentação de maneira ágil.</p>
+                    <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6">
+                        <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px]" />
+                        <Image className="mb-4" src="/assets/ico/ico-product.png" alt="logo" width={50} height={50}/>
+                        <p className="text-xl mb-4">Produtos focados em sua rentabilidade</p>
+                        <p className="font-light">Portfólio de produtos direcionado para operações rentáveis.</p>
                     </div>
-                    <Image className="absolute right-0" src="/assets/ellipse-pink.png" alt="logo" width={286} height={366}/>
                 </div>
                 
             </div>
