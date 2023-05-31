@@ -48,7 +48,7 @@ export default function Apresentation() {
                         </div>
                         
                         
-                        <p className="text-xs mt-3">Ao clicar em "quero ser banker" voce aceita os termos e condições do Kanal Open Finance</p>
+                        <p className="text-xs mt-3">Ao clicar em &#34;quero ser banker&#34; voce aceita os termos e condições do Kanal Open Finance</p>
                     </form>
                 </div>
                 <div className="flex justify-end items-start">
