@@ -18,7 +18,7 @@ export default function Depoiment() {
         <div className="w-full flex flex-col items-center bg-[#0E0E0E] text-white">
             {/* 
             // @ts-ignore */}
-            <Carousel itemsToShow={1}>
+            <Carousel itemsToShow={1} className="mb-10">
                 {items.map((item) => (
                     <div key={item} className=" w-full h-72 flex justify-center bg-[#0E0E0E] pt-5">
                         <div className="w-[500px] h-[200px] bg-[#161616] p-5 mt-10 rounded-3xl">
