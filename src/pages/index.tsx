@@ -5,6 +5,7 @@ import Two from "../components/two";
 import About from "../components/about";
 import Video from "../components/video";
 import Depoiment from "../components/depoiment";
+import Question from "../components/question";
 
 export default function Index() {
   return (
@@ -15,6 +16,7 @@ export default function Index() {
       <About />
       <Video />
       <Depoiment />
+      <Question />
     </>
   )
 }

@@ -13,42 +13,12 @@ export default function Depoiment() {
 
       const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7, 8]);
 
-      const addItem = () => {
-        const nextItem = Math.max(1, items.length + 1);
-        setItems([...items, nextItem]);
-      };
-    
-      const removeItem = () => {
-        const endRange = Math.max(0, items.length - 1);
-        setItems(items.slice(0, endRange));
-      };
+
     return (
         <div className="w-full flex flex-col items-center bg-[#0E0E0E] text-white">
-            {/* <Carousel isRTL breakPoints={breakPoints} itemsToShow={1}>
-                {items.map((item) => (
-                    <div key={item}>
-                        <div className="bg-[#161616]  w-full">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div className="grid grid-cols-2 gap-5">
-                                <div className=" rounded-full w-10 h-10 bg-white">
-                                </div>
-                                <div>
-                                    <span>
-                                    Fulana da Silva
-                                    </span>
-                                    <span>
-                                    São Bernardo do Campo 
-                                    </span>
-                                    <span>
-                                    São Bernardo do Campo 
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </Carousel> */}
-            <Carousel itemsToShow={1} className="mb-10">
+            {/* 
+            // @ts-ignore */}
+            <Carousel itemsToShow={1}>
                 {items.map((item) => (
                     <div key={item} className=" w-full h-72 flex justify-center bg-[#0E0E0E] pt-5">
                         <div className="w-[500px] h-[200px] bg-[#161616] p-5 mt-10 rounded-3xl">

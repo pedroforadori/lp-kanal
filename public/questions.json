@@ -1,0 +1,44 @@
+{
+      "items": [
+        {
+          "id": 1,
+          "title": "Como o Banker é remunerado?",
+          "body": "A remuneração do Banker é 100% autônoma. No sucesso de cada operação o Banker tem uma comissão fechada, disponibilizada previamente via tabela inclusive com simuladores para previsibilidade. Esse pagamento é feito através de emissão de nota fiscal."
+        },
+        {
+          "id": 2,
+          "title": "Quais os critérios para ser um Banker do Kanal?",
+          "body": "Você não precisa de certificações ou comprovação de experiência bancária anterior. Se você atua no mercado financeiro ou correlatas e possiu carteira de clientes ou relacionamento certamente tem nosso perfil e terá sucesso. O Kanal disponibiliza treinamento e orientações para o banker que o deixa apto a indicar os produtos e serviços, bem como utilizar nossa plataforma."
+        },
+        {
+          "id": 3,
+          "title": "O Banker do Kanal consegue acompanhar as propostas e status?",
+          "body": "Sim. A plataforma permite que o Banker tenha domínio do status e histórico das propostas."
+        },
+        {
+          "id": 4,
+          "title": "É necessário ter alguma certificação?",
+          "body": "Não, pois o Banker do Kanal faz a indicação das soluções financeiras. Toda análise e avaliação é feita pelos parceiros Kanal."
+        },
+        {
+          "id": 5,
+          "title": "O cliente final tem custo?",
+          "body": "Não. O Banker atua de forma gratuita indicando as melhores soluções para o seu cliente dentro dos diversos parceiros de negócio."
+        },
+        {
+          "id": 6,
+          "title": "O Kanal fornece carteira de clientes?",
+          "body": "Não. Acreditamos que o relacionamento e a proximidade é a chave do sucesso desta operação."
+        },
+        {
+          "id": 7,
+          "title": "Como funciona a contratação de um produto/serviço?",
+          "body": "O processo é digital. O próprio Banker coloca as propostas e documentos em nossa plataforma digital. A partir daí o nosso Backoffice fará a distribuição dentre os parceiros a fim de encontrar a melhor opção para seu cliente."
+        },
+        {
+          "id": 8,
+          "title": "Qual o vínculo Banker do Kanal, com a Kanal Open finance?",
+          "body": "Não existe vínculo. A relação é pessoa jurídica sem exclusividade ou fidelidade contratual. O Banker Kanal é autônomo."
+        }
+      ]
+  }
