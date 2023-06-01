@@ -6,6 +6,7 @@ import About from "../components/about";
 import Video from "../components/video";
 import Depoiment from "../components/depoiment";
 import Question from "../components/question";
+import NewBanker from "../components/new-banker";
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
       <Video />
       <Depoiment />
       <Question />
+      <NewBanker />
     </>
   )
 }

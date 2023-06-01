@@ -7,7 +7,7 @@ import {
     Box,
     CloseButton,
   } from '@chakra-ui/react'
-import jsonQuestion from '../../public/questions.json'
+import jsonQuestion from '../../public/data/questions.json'
 import Image from 'next/image'
 
 
@@ -22,7 +22,7 @@ export default function Question() {
                     
                     <div className="flex justify-center items-center flex-col">
                         <h2 className=" w-full text-left">Principais perguntas.</h2>
-                            <Accordion defaultIndex={[0]} allowMultiple>
+                            <Accordion defaultIndex={[0]}>
                                 {jsonQuestion.items.map((item) => (
                                     <AccordionItem key={item.id}>
                                     {({ isExpanded }) => (
@@ -31,7 +31,7 @@ export default function Question() {
                                         <hr className="bg-white h-[2px] w-full my-3"/>
                                         <AccordionButton>
                                             
-                                            <Box as="span" flex='1' textAlign='left' className="">
+                                            <Box as="span" flex='1' textAlign='left' className="max-w-[30rem]">
                                                 {item.title}
                                             </Box>
                                             {isExpanded ? (

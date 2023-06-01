@@ -39,6 +39,27 @@
           "id": 8,
           "title": "Qual o vínculo Banker do Kanal, com a Kanal Open finance?",
           "body": "Não existe vínculo. A relação é pessoa jurídica sem exclusividade ou fidelidade contratual. O Banker Kanal é autônomo."
+        },
+        {
+          "id": 9,
+          "title": "Para o cliente final assinar um determinado contrato, ele precisará se deslocar até algum ponto físico?",
+          "body": "Não, toda operação é digital."
+        },
+        {
+          "id": 10,
+          "title": "Posso operar no Kanal como MEI?",
+          "body": "Sim, desde que utilizando o CNAE 7319-0/02 | Promotor de Vendas."
+        },
+        {
+          "id": 11,
+          "title": "Qual investimento para ser um Banker do Kanal?",
+          "body": "Hoje o Banker do Kanal tem até 60 dias para testar a plataforma sem custo algum, após esse período temos a mensalidade de R$199,00."
+        },
+        {
+          "id": 12,
+          "title": "Qual o vínculo Banker do Kanal, com a Kanal Open finance?",
+          "body": "Não existe vínculo. A relação é pessoa jurídica sem exclusividade ou fidelidade contratual. O Banker Kanal é autônomo."
         }
+        
       ]
   }
