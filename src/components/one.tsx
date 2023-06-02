@@ -8,7 +8,7 @@ export default function One() {
                 <div className="max-sm:flex max-sm:flex-col">
                     <Image src="/assets/image/img-two.png" className="max-sm:hidden" alt="logo" width={464} height={650}/>
                     <Image src="/assets/image/banco.png" className="max-sm:w-full" id="isMobile" alt="logo" width={390} height={320}/>
-                    <Image className="mt-8 ml-7 z-20 absolute max-sm:hidden" src="/assets/detail.png" alt="logo" width={300} height={180}/>
+                    <Image className="mt-8 ml-7 z-20 absolute max-sm:hidden" src="/assets/image/detail.png" alt="logo" width={300} height={180}/>
                     <div className="rounded-[32px] bg-[#121323] relative top-[-250px] left-80 text-white pt-12 px-12 max-sm:hidden">
                         <div className="text-3xl font-bold mb-4 ">Quem é o Banker do Kanal<span className="text-[#6D3BF2]">?</span></div>
                         <p>Um profissional de negócios. Traga sua experiência comercial e agregue muito mais valor aos seus clientes.</p>
