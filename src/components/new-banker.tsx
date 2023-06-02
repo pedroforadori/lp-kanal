@@ -4,7 +4,7 @@ import Form from "./form";
 
 export default function NewBanker() {
     return (
-        <section className="w-full bg-[#121323] py-20 px-40">
+        <section className="w-full bg-[#121323] py-20 px-64">
             <div className="grid grid-cols-2 text-white">
                 <div className="flex flex-col items-start justify-between px-28 font-boldHurme">
                     <h2 className="text-4xl font-bold">Seja um Banker do Kanal</h2>
@@ -23,7 +23,7 @@ export default function NewBanker() {
                         </button>
                     </div>
                 </div>
-                <div>
+                <div className="flex justify-center">
                     <Form radioGroupName="period-new-banker"/>
                 </div>
             </div>
