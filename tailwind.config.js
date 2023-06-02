@@ -9,7 +9,10 @@ module.exports = {
       backgroundImage: {
       },
       fontFamily: {
-        hurmeGeometricSans: ['HurmeGeometricSans1, cursive']
+        // hurmeGeometricSans: ['HurmeGeometricSans1, cursive']
+        primaryHurme: "HurmeGeometricSans",
+        boldHurme: "HurmeGeometricSansBold",
+        poppins: "Poppins"
       },
     },
   },

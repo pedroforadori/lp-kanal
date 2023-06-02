@@ -1,3 +1,4 @@
+// @ts-ignore */
 import Carousel from 'react-elastic-carousel';
 import { useState } from 'react'
 import Image from 'next/image';
@@ -20,16 +21,16 @@ export default function Depoiment() {
             // @ts-ignore */}
             <Carousel itemsToShow={1} className="mb-10">
                 {items.map((item) => (
-                    <div key={item} className=" w-full h-72 flex justify-center bg-[#0E0E0E] pt-5">
-                        <div className="w-[500px] h-[200px] bg-[#161616] p-5 mt-10 rounded-3xl">
-                        <div className="text-xs font-light h-16"> 
-                        <div className="flex items-center gap-2">
-                            <span><Image src="/assets/ico/left-quote.png" alt="aspas" width={20} height={20}/></span>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <span><Image src="/assets/ico/right-quote.png" alt="aspas" width={20} height={20}/></span>
-                        </div>
-                        
-                        </div>
+                    <div key={item} className="w-full h-72 flex justify-center bg-[#0E0E0E] pt-5">
+                        <div className="w-auto bg-[#161616] p-5 mt-10 rounded-3xl">
+                            <div className="text-base font-poppins h-16"> 
+                                <div className="flex items-center gap-2">
+                                    <span><Image src="/assets/ico/left-quote.png" alt="aspas" width={20} height={20}/></span>
+                                    <p className="max-h-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <span><Image src="/assets/ico/right-quote.png" alt="aspas" width={20} height={20}/></span>
+                                </div>
+                            
+                            </div>
                             <div className="flex flex-row px-4">
                                 <div className="rounded-full w-24 h-24 bg-white mr-5">
                                 </div>
@@ -49,8 +50,6 @@ export default function Depoiment() {
                         </div>
                     </div>
                 ))}
-                
-
             </Carousel>
         </div>
     )

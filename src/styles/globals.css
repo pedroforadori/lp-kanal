@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'HurmeGeometricSans';
+  src: local('HurmeGeometricSans'), url(/assets/fonts/HGSFF/HurmeGeometricSansNo1/HurmeGeometricSans1.otf) format('otf');
+}
+@font-face {
+  font-family: 'HurmeGeometricSansBold';
+  src: local('HurmeGeometricSansBold'), url(/assets/fonts/HGSFF/HurmeGeometricSansNo1/HurmeGeometricSans1Bold.otf) format('otf');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(/assets/fonts/Poppins/HurmeGeometricSansNo1/Poppins-Thin.ttf) format('ttf');
+}
+
 #customRange1::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -116,7 +129,7 @@
   background: linear-gradient(180deg, #121323 0%, rgba(42, 43, 79, 0) 100%);
 }
 .rec .rec-carousel{
-  width: 35%;
+  width: 50%;
 }
 /* square buttons */
 .rec.rec-arrow {

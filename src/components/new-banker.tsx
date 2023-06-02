@@ -4,12 +4,12 @@ import Form from "./form";
 
 export default function NewBanker() {
     return (
-        <section className="w-full bg-[#121323] py-20">
+        <section className="w-full bg-[#121323] py-20 px-40">
             <div className="grid grid-cols-2 text-white">
-                <div className="flex flex-col items-start justify-around px-28">
-                    <h2 className="text-4xl">Seja um Banker do Kanal</h2>
-                    <p className="text-xl">No Kanal, você tem total autonomia sobre suas propostas e solicitações</p>
-                    <p className="text-xl">Caso tenha alguma dúvida utilize os canais abaixo</p>
+                <div className="flex flex-col items-start justify-between px-28 font-boldHurme">
+                    <h2 className="text-4xl font-bold">Seja um Banker do Kanal</h2>
+                    <p className="text-xl font-poppins">No Kanal, você tem total autonomia sobre suas propostas e solicitações</p>
+                    <p className="text-xl font-poppins">Caso tenha alguma dúvida utilize os canais abaixo</p>
                     <button className="flex justify-center items-center text-white px-[10px] py-3 bg-[#6D3BF2] rounded-lg gap-[10px]  mt-4">
                         <Phone size={32} weight="fill" />
                         11 2424 6277
