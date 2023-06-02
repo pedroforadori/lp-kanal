@@ -3,11 +3,11 @@ import { FacebookLogo, InstagramLogo, WhatsappLogo, EnvelopeSimple } from 'phosp
 
 export default function About() {
     return (
-        <div className="w-full flex flex-col items-center bg-[#F1F1FB]">
+        <div className="w-full flex flex-col items-center bg-[#F1F1FB] max-sm:bg-white">
             <h2 className="mt-32 text-4xl">Quem somos<span className="text-[#FF4C00]">.</span></h2>
-            <p className="mt-10 w-[600px] font-light text-center">O Kanal é uma plataforma digital integradora de produtos e serviços, que busca democratizar e simplificar o acesso ao mercado financeiro.</p>
+            <p className="mt-10 w-[600px] font-light text-center max-sm:mx-8 max-sm:w-auto">O Kanal é uma plataforma digital integradora de produtos e serviços, que busca democratizar e simplificar o acesso ao mercado financeiro.</p>
             <div className="mt-11 overflow-x-scroll">
-                <div className="flex flex-row my-10 h-10 gap-5 w-[550px]">
+                <div className="flex flex-row my-10 h-10 gap-5 w-[550px] max-sm:w-[320px]">
                     <Image src="/assets/ico-partners/logo-belvo.png" alt="detalhes imagem" width={80} height={60} />
                     <Image src="/assets/ico-partners/bradesco.png" alt="detalhes imagem" width={100} height={40} />
                     <Image src="/assets/ico-partners/itau.png" alt="detalhes imagem" width={40} height={30} />
@@ -22,16 +22,22 @@ export default function About() {
                     <Image src="/assets/ico-partners/logo-bv.png" alt="detalhes imagem" width={80} height={40} />
                 </div>
             </div>
-            <span className="w-[300px] min-h-[31px] mt-10 h-8 bg-[#FF0068]" />
-            <div className="flex flex-row items-center justify-around my-20">
-                <Image src="/assets/about.png" alt="detalhes imagem" width={350} height={405} />
-                <div className="flex flex-col items-center justify-between h-96 relative right-20">
+            {/* <span className="w-[300px] min-h-[31px] mt-10 h-8 bg-[#FF0068]" /> */}
+            <div className="flex flex-row items-center justify-around my-20 max-sm:flex-col">
+                <Image src="/assets/image/about.png" className="max-sm:w-full" alt="detalhes imagem" width={350} height={405} />
+                <div className="flex flex-col items-center justify-between h-96 relative right-20 max-sm:hidden" >
                     <p className=" text-4xl mt-5">Digital <span className="text-[#6D3BF2]">+</span> Humano</p>
                     <p className=" text-4xl mt-4"><span className="text-[#FF4C00]">=</span> Plataforma Kanal</p>
-                    <div className="w-[470px] mt-20 bg-white p-12 rounded-xl shadow-md shadow-purple-300 bg-opacity-70">
+                    <div className="w-[470px] mt-20 bg-white p-12 rounded-xl shadow-md shadow-purple-300 bg-opacity-70 max-sm:w-auto">
                         <p>Conectamos possibilidades para os profissionais de negócios do mercado com um modelo inovador.</p>
                         <p className="mt-5">Garantindo um atendimento personalizado as necessidades dos seus clientes.</p>
                     </div>
+                </div>
+                <div className="flex flex-col items-center justify-center relative mx-8 p-8 mt-[-50px] bg-[#F1F1FB]" id="isMobile">
+                    <p className=" text-4xl mt-5">Digital <span className="text-[#6D3BF2]">+</span> Humano</p>
+                    <p className=" text-4xl mt-4"><span className="text-[#FF4C00]">=</span> Plataforma Kanal</p>
+                        <p>Conectamos possibilidades para os profissionais de negócios do mercado com um modelo inovador.</p>
+                        <p className="mt-5">Garantindo um atendimento personalizado as necessidades dos seus clientes.</p>
                 </div>
                 
             </div>

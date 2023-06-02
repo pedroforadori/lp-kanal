@@ -13,11 +13,11 @@ import Image from 'next/image'
 
 export default function Question() {
     return (
-        <div className="w-full flex flex-col items-center bg-[#191A30] text-white py-32">
-            <div className="bg-[#121323] py-8 rounded-[32px]">
-                <div className='flex flex-row px-16'>
+        <div className="w-full flex flex-col items-center bg-[#191A30] text-white py-32 ">
+            <div className="bg-[#121323] py-8 rounded-[32px] max-sm:bg-transparent">
+                <div className='flex flex-row px-16 max-sm:flex-col '>
                     <div className="flex flex-col justify-center items-center pr-16">
-                        <Image src="/assets/question-mark.png" alt="interrogacao" width={150} height={412}/>
+                        <Image src="/assets/image/question-mark.png" alt="interrogacao" width={150} height={412}/>
                     </div>
                     
                     <div className="flex justify-center items-center flex-col">

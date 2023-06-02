@@ -8,6 +8,7 @@ import Depoiment from "../components/depoiment";
 import Question from "../components/question";
 import NewBanker from "../components/new-banker";
 import Footer from "../components/footer";
+import DepoimentMobile from "../components/depoiment-mobile";
 
 export default function Index() {
   return (
@@ -17,7 +18,12 @@ export default function Index() {
       <Two />
       <About />
       <Video />
-      <Depoiment />
+      <div className="max-sm:hidden">
+        <Depoiment />
+      </div>
+      <div id="isMobile">
+        <DepoimentMobile />
+      </div>
       <Question />
       <NewBanker />
       <Footer />

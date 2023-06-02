@@ -5,7 +5,7 @@ import Image from 'next/image';
 import jsonQuestion from '../../public/data/Items.json'
 
 
-export default function Depoiment() {
+export default function DepoimentMobile() {
     
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
@@ -21,19 +21,9 @@ export default function Depoiment() {
             // @ts-ignore */}
             <Carousel itemsToShow={1} className="mb-20">
                 {jsonQuestion.items.map((item) => (
-                    <div key={item.id} className="w-full h-80 flex justify-center bg-[#0E0E0E] pt-5">
-                        <div className="w-auto bg-[#161616] p-5 mt-10 rounded-3xl">
-                            <div className="text-base font-poppins h-20"> 
-                                <div className="flex flex-row items-center justify-center gap-2 ">
-                                    <span className="relative top-[30px]"><Image src="/assets/ico/left-quote.png" alt="aspas" width={80} height={20}/></span>
-                                    <p className="max-h-4 leading-5 text-start">{item.depoiment}</p>
-                                    <span className="relative top-[30px]"><Image src="/assets/ico/right-quote.png" alt="aspas" width={80} height={20}/></span>
-                                </div>
-                            
-                            </div>
-                            <div className="flex flex-row px-4 my-8 gap-4">
+                    <div key={item.id} className="">
+                        <div className="w-full flex flex-col items-center justify-center p-5 mt-10 rounded-3xl">
                                 <Image src={item.photo} alt={item.photo} width={100} height={80} />
-                                <div className="">
                                     <hr className="mt-4 w-full px-40 mb-1" />
                                     <span className="text-2xl text-[#FF4D00]">
                                         {item.name}
@@ -44,8 +34,15 @@ export default function Depoiment() {
                                     <p className="font-light text-base text-[#475467]">
                                         {item.type}
                                     </p>
+                            <div className="text-base font-poppins h-20 mt-4"> 
+                                <div className="flex flex-row items-center justify-center gap-2 ">
+                                    <span className="relative top-[30px]"><Image src="/assets/ico/left-quote.png" alt="aspas" width={80} height={20}/></span>
+                                    <p className="max-h-4 leading-5 text-justify">{item.depoiment}</p>
+                                    <span className="relative top-[30px]"><Image src="/assets/ico/right-quote.png" alt="aspas" width={80} height={20}/></span>
                                 </div>
+                            
                             </div>
+                            
                         </div>
                     </div>
                 ))}
