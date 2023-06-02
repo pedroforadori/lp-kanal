@@ -4,7 +4,7 @@ import { FacebookLogo, InstagramLogo, WhatsappLogo, EnvelopeSimple } from 'phosp
 export default function Two() {
     return (
         <div className="w-full h-[200vh] flex flex-col items-center bg-gradient-to-b from from-[#FFFFFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90%">
-            <Image className="absolute left-[-20px]" src="/assets/ellipse-blue.png" alt="logo" width={286} height={366}/>
+            <Image className="absolute left-[-20px]" src="/assets/image/ellipse-blue.png" alt="logo" width={286} height={366}/>
             <div className="grid grid-cols-2 ml-44">
                 <div className="mt-52 w-[600px]">
                     <p className="flex justify-end text-3xl text-[#222222]">Por que ser um</p>
@@ -17,21 +17,21 @@ export default function Two() {
                     </div>
                 </div>
                 <div>
-                    <Image className="relative top-40 left-4" src="/assets/detail-phone.png" alt="logo" width={100} height={50}/>
-                    <Image className="relative top-[100px] right-6" src="/assets/detail-phone.png" alt="logo" width={100} height={50}/>
-                    <Image className="absolute ml-5 z-50" src="/assets/iphone.png" alt="logo" width={295} height={600}/>
-                    <Image className="ml-40 mt-32" src="/assets/ellipse-green.png" alt="logo" width={286} height={366}/>
-                    <Image className="relative top-[-45px] left-[270px] z-10" src="/assets/detail-phone-one.png" alt="logo" width={100} height={50}/>
-                    <Image className="relative top-[-70px] left-[290px] z-10" src="/assets/detail-phone-two.png" alt="logo" width={30} height={10}/>
-                    <Image className="relative top-[-220px] right-0 z-10" src="/assets/detail-for.png" alt="logo" width={50} height={50}/>
-                    <Image className="relative top-[-280px] right-14 z-10" src="/assets/detail-for.png" alt="logo" width={50} height={50}/>
-                    <Image className="relative top-[-280px] right-10 z-10" src="/assets/detail-three.png" alt="logo" width={100} height={50}/>
+                    <Image className="relative top-40 left-4" src="/assets/image/detail-phone.png" alt="logo" width={100} height={50}/>
+                    <Image className="relative top-[100px] right-6" src="/assets/image/detail-phone.png" alt="logo" width={100} height={50}/>
+                    <Image className="absolute ml-5 z-50" src="/assets/image/iphone.png" alt="logo" width={295} height={600}/>
+                    <Image className="ml-40 mt-32" src="/assets/image/ellipse-green.png" alt="logo" width={286} height={366}/>
+                    <Image className="relative top-[-45px] left-[270px] z-10" src="/assets/image/detail-phone-one.png" alt="logo" width={100} height={50}/>
+                    <Image className="relative top-[-70px] left-[290px] z-10" src="/assets/image/detail-phone-two.png" alt="logo" width={30} height={10}/>
+                    <Image className="relative top-[-220px] right-0 z-10" src="/assets/image/detail-for.png" alt="logo" width={50} height={50}/>
+                    <Image className="relative top-[-280px] right-14 z-10" src="/assets/image/detail-for.png" alt="logo" width={50} height={50}/>
+                    <Image className="relative top-[-280px] right-10 z-10" src="/assets/image/detail-three.png" alt="logo" width={100} height={50}/>
                 </div>                    
             </div>
             <div className="mt-20">
                 <div className="flex flex-row">
                     {/* <div className="bg-[#6D3BF2] rounded-full w-80 h-80" /> */}
-                    <Image className="mr-5" src="/assets/tie.png" alt="logo" width={350} height={100} />
+                    <Image className="mr-5" src="/assets/image/tie.png" alt="logo" width={350} height={100} />
                     <div className="flex flex-col justify-center items-center">
                         <div className="flex justify-center text-[#2C2E50] text-4xl">
                             Vantagens para o Banker do Kanal.
@@ -58,8 +58,8 @@ export default function Two() {
                         
                     </div>
                 </div>
-                <Image className="absolute left-[-200px]" src="/assets/ellipse-green.png" alt="logo" width={450} height={366}/>
-                <Image className="absolute right-0" src="/assets/ellipse-pink.png" alt="logo" width={250} height={250}/>
+                <Image className="absolute left-[-200px]" src="/assets/image/ellipse-green.png" alt="logo" width={450} height={366}/>
+                <Image className="absolute right-0" src="/assets/image/ellipse-pink.png" alt="logo" width={250} height={250}/>
                 <div className="flex flex-row gap-10 mt-12 justify-center">
                     <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6">
                         <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px]" />

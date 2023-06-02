@@ -6,7 +6,7 @@ export default function Footer(){
         <section className="w-full bg-[#212121] py-20">
             <div className="flex flex-row justify-between px-80">
                 <div className="flex flex-col text-white gap-3">
-                    <Image src="/assets/logo.png" alt="logo" width={120} height={45}/>
+                    <Image src="/assets/image/logo.png" alt="logo" width={120} height={45}/>
                     <Link className="underline" href="#">Termos de Uso</Link>
                     <Link className="underline" href="#">Politica de Privacidade</Link>
                 </div>

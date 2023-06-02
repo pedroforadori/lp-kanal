@@ -5,7 +5,7 @@ export default function Apresentation() {
     return (
         <section className="w-full h-screen bg-[#191A30]">
             <div className="flex justify-between px-[120px] pt-12">
-                <Image src="/assets/logo.png" alt="logo" width={120} height={45}/>
+                <Image src="/assets/image/logo.png" alt="logo" width={120} height={45}/>
                 <button className="bg-white w-[228px] h-[56px] rounded-lg px-6 py-4 font-bold">Área logada do Banker</button>
             </div>
             <div className="grid grid-cols-2 text-white mt-[112px] pl-[120px]">
@@ -15,7 +15,7 @@ export default function Apresentation() {
                     <Form radioGroupName="period-apresentation"/>
                 </div>
                 <div className="flex justify-end items-start">
-                    <Image src="/assets/athor.png" alt="logo" width={750} height={720}/>
+                    <Image src="/assets/image/athor.png" alt="logo" width={750} height={720}/>
                 </div>
                 
             </div>
