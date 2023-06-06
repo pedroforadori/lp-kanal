@@ -3,7 +3,7 @@ import { FacebookLogo, InstagramLogo, WhatsappLogo, EnvelopeSimple } from 'phosp
 
 export default function Two() {
     return (
-        <div className="w-full h-[200vh] flex flex-col bg-gradient-to-b from from-[#FFFFFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90% max-sm:h-auto">
+        <div className="w-full h-[185vh] flex flex-col bg-gradient-to-b from from-[#FFFFFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90% max-sm:h-auto">
             <Image className="absolute left-[-20px] max-sm:hidden" src="/assets/image/ellipse-blue.png" alt="logo" width={286} height={366}  />
             <div className="flex flex-row max-sm:flex max-sm:flex-col-reverse max-sm:items-center px-56">
                 <div className="w-[500px] mt-52 flex-col ml-40 max-sm:w-auto max-sm:ml-0 max-sm:mt-4 ">

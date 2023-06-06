@@ -46,7 +46,7 @@ export default function Form(props: IForm){
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="flex flex-col items-start">
                     <p className="mt-4 text-white max-sm:text-center">Eu prefiro que o time Kanal entre em <br /> contato no período da:</p>
                     <div className="mt-1 gap-3 flex items-end text-white max-sm:flex-wrap max-sm:justify-between">
                         <div className="bg-[#475467] flex items-center justify-center gap-1 rounded-lg active:bg-[#121323] focus:bg-[#121323] px-4 py-2">
