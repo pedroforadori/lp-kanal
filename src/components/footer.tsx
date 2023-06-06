@@ -22,12 +22,13 @@ export default function Footer(){
                 
             </div>
             <div className="text-white text-[10px] px-96 mt-12 flex flex-col items-center justify-center max-sm:px-8">
+                <hr className="bg-[#929292] h-[1px] px-96 my-6 max-sm:px-44" id="isMobile"/>
                     <p>
                         O Kanal não é uma instituição bancária ou agente de distribuição financeiro. Somos uma plataforma que fornece aos nossos parceiros denominados bankers, as ferramentas para divulgação de produtos, serviços e 
                         conveniências. O Kanal intermedia as negociações entre os Bankers e as instituições indicadas em nosso site sem qualquer intervenção direta ou responsabilidade.	
                         Seus dados financeiros e bancários estão protegidos nos termos da lei e são absolutamente sigilosos. O Kanal e seus parceiros não cobram nenhum valor adiantado pela prestação de serviços ou concessão de crédito.
                     </p>
-                    <hr className="bg-[#929292] h-[1px] px-96 my-6 max-sm:px-8" />
+                    <hr className="bg-[#929292] h-[1px] px-96 my-6 max-sm:px-44" />
                     <p>
                         Kanal Open Finance - Todos os direitos reservados - 2023. | CNPJ: 41.571.650/0001-74 | (11) 2424 6277
                     </p>
