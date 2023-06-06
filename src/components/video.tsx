@@ -12,7 +12,7 @@ export default function Video() {
                     </div>
                 </div>
                 <div className="flex justify-center items-end max-sm:mt-12">
-                <iframe width="420" height="450"
+                <iframe width="420" height="450" className="max-sm:w-[320px]"
                  src="https://www.youtube.com/embed/iMz-l4iEIy4">
                 </iframe>
                 </div>
