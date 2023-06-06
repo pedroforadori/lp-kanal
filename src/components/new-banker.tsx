@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Envelope, Phone, WhatsappLogo } from "phosphor-react";
 import Form from "./form";
 
@@ -19,9 +20,13 @@ export default function NewBanker() {
                                     11 2424 6277
                             </button>
                             <div className="flex flex-row gap-6 mt-4">
-                            <button className="flex justify-center items-center text-white bg-[#6D3BF2] rounded-lg gap-[10px] px-10 py-4">
-                                <WhatsappLogo size={40} />
-                            </button>
+                            <Link 
+                                className="max-sm:w-full flex justify-center items-center text-white px-[10px] py-3 bg-[#6D3BF2] rounded-lg gap-[10px]  mt-4" 
+                                href="https://wa.me/5511940159875?text=Ola,%20gostaria%20de%20mais%20informações%20para%20ser%20banker%20do%20Kanal%20Open%20Finance."
+                            >
+                                <WhatsappLogo size={32} weight="fill" />
+                                11 94015 9875
+                            </Link>
                             <button className="flex justify-center items-center text-white bg-[#6D3BF2] rounded-lg gap-[10px] px-10 py-4">
                                 <Envelope size={40} />
                             </button>

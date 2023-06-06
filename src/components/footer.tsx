@@ -7,16 +7,25 @@ export default function Footer(){
             <div className="flex flex-row justify-between px-96 max-sm:flex-col max-sm:px-8">
                 <div className="flex flex-col text-white gap-3">
                     <Image src="/assets/image/logo.png" alt="logo" width={120} height={45}/>
-                    <Link className="underline" href="#">Termos de Uso</Link>
-                    <Link className="underline" href="#">Politica de Privacidade</Link>
+                    <Link className="underline" target="_blank" href="https://kanal-termos-uso.s3.sa-east-1.amazonaws.com/termos-de-uso-kanal-2.1.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=90">Termos de Uso</Link>
+                    <Link className="underline" target="_blank" href="https://kanal-termos-uso.s3.sa-east-1.amazonaws.com/politica-privacidade-1.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=90">Politica de Privacidade</Link>
                 </div>
                 <div>
                     <p className="text-white">Siga o Kanal nas redes sociais</p>
                     <div className="flex flex-row gap-4 mt-4 ">
-                        <Image src="/assets/ico/youtube.png" alt="logo" width={32} height={32}/>
-                        <Image src="/assets/ico/instagram.png" alt="logo" width={32} height={32}/>
-                        <Image src="/assets/ico/facebook.png" alt="logo" width={32} height={32}/>
-                        <Image src="/assets/ico/linkedin.png" alt="logo" width={32} height={32}/>
+                        <Link href="https://www.youtube.com/@kanalopenfinance1348" target="_blank">
+                            <Image src="/assets/ico/youtube.png" alt="logo" width={32} height={32}/>
+                        </Link>
+                        <Link href="https://www.instagram.com/kanal.open.finance/" target="_blank">
+                            <Image src="/assets/ico/instagram.png" alt="logo" width={32} height={32}/>
+                        </Link>
+                        <Link href="https://www.facebook.com/Kanal.Open.Finance" target="_blank">
+                            <Image src="/assets/ico/facebook.png" alt="logo" width={32} height={32}/>
+                        </Link>
+                        <Link href="https://www.linkedin.com/company/kanal-open-finance/" target="_blank">
+                            <Image src="/assets/ico/linkedin.png" alt="logo" width={32} height={32}/>
+                        </Link>
+                        
                     </div>
                 </div>
                 
