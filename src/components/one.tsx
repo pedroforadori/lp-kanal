@@ -4,10 +4,11 @@ import { SkipBack, SkipForward } from 'phosphor-react'
 export default function One() {
     return (
         <div className="w-full h-[120vh] flex flex-col items-center justify-center bg-gradient-to-b from from-[#161726] from-5% via-[#191A30] to-[#191A30] max-sm:flex-col max-sm:h-auto px-36 max-sm:px-0">
-            <div className="grid grid-cols-2 mt-[92px] max-sm:flex max-sm:flex-col max-sm:w-auto">
+            <div className="grid grid-cols-2 mt-[92px] 
+                            max-sm:flex max-sm:flex-col max-sm:w-auto">
                 <div className="max-sm:flex max-sm:flex-col">
                     <Image src="/assets/image/img-two.png" className="max-sm:hidden" alt="logo" width={464} height={650}/>
-                    <Image src="/assets/image/banco.png" className="max-sm:w-full" id="isMobile" alt="logo" width={390} height={320}/>
+                    <Image src="/assets/image/banco.png" id="isMobile" alt="logo" width={390} height={320}/>
                     <Image className="mt-[-150px] ml-7 z-20 absolute max-sm:hidden" src="/assets/image/detail.png" alt="logo" width={300} height={180}/>
                 </div>
                 <div className="max-sm:hidden mt-5">
