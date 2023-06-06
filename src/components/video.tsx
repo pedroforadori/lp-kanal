@@ -1,5 +1,3 @@
-import { Player } from 'video-react';
-
 export default function Video() {
     return (
         <div className="w-full flex flex-col items-center bg-[#161616] text-white">
@@ -14,9 +12,9 @@ export default function Video() {
                     </div>
                 </div>
                 <div className="flex justify-center items-end max-sm:mt-12">
-                    <Player fluid={false} width={300} height={400}>
-                        <source width={300} height={300} src="/assets/video/bratz2.mp4" />
-                    </Player>
+                <iframe width="420" height="450"
+                 src="https://www.youtube.com/embed/iMz-l4iEIy4">
+                </iframe>
                 </div>
                 <div className="text-base p-6 w-auto" id="isMobile">
                         “Posso oferecer tranquilidade aos meus clientes, cadastrando as operações e sempre buscando a melhor solução para suas necessidades. 

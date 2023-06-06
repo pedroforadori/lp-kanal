@@ -14,7 +14,7 @@ export default function Form(props: IForm){
                     <label className="mb-1">E-mail</label>
                     <input className="rounded-lg w-full h-[46px] py-4 pl-4 text-[#9F9F9F]" type="text" placeholder="Insira seu melhor e-mail" />
                 </div>
-                <div className="flex flex-col ml-4 mt-2">
+                <div className="flex flex-col ml-4 mt-2 max-sm:ml-0">
                     <label className="mb-1">Perfil do Linkedin</label>
                     <input className="rounded-lg w-full h-[46px] py-4 pl-4 text-[#9F9F9F]" type="text" placeholder="URL do seu Perfil do Linkedin" />
                 </div>
