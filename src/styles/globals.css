@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: 'HurmeGeometricSans';
-  src: local('HurmeGeometricSans'), url(/assets/fonts/HGSFF/HurmeGeometricSansNo1/HurmeGeometricSans1.otf) format('otf');
+  src: local('HurmeGeometricSans'), url(/assets/fonts/HGSFF/HurmeGeometricSansNo1/HurmeGeometricSans1.otf) format('opentype');
 }
 @font-face {
   font-family: 'HurmeGeometricSansBold';
-  src: local('HurmeGeometricSansBold'), url(/assets/fonts/HGSFF/HurmeGeometricSansNo1/HurmeGeometricSans1Bold.otf) format('otf');
+  src: local('HurmeGeometricSansBold'), url(/assets/fonts/HGSFF/HurmeGeometricSansNo1/HurmeGeometricSans1Bold.otf) format('opentype');
 }
 @font-face {
   font-family: 'Poppins';
