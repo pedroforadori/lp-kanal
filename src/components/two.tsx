@@ -15,7 +15,7 @@ export default function Two() {
                                                                 Supere seus maiores desafios contando com soluções de ponta em um só lugar!</p>
                         <div className="bg-[#6D3BF2] flex flex-col justify-start mt-10 rounded-3xl gap-4">
                             <p className="text-4xl text-white pl-8 pt-8">Como funciona?</p>
-                            <p className="text-xl text-white pl-8 pb-8 max-sm:pl-8 max-sm:pr-8 max-sm:pb-8">Você se cadastra, avaliamos sua experiência e você tem até 60 dias disponíveis para acessar e conhecer nossa plataforma.</p>
+                            <p className="text-xl text-white pl-8 pb-8 max-sm:pl-8 max-sm:pr-8 max-sm:pb-8">Você se cadastra, avaliamos sua experiência e você tem até 90 dias disponíveis para acessar e conhecer nossa plataforma.</p>
                         </div>
                     </div>
                     <div className="max-sm:hidden">
