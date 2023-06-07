@@ -10,8 +10,8 @@ module.exports = {
       },
       fontFamily: {
         // hurmeGeometricSans: ['HurmeGeometricSans1, cursive']
-        primaryHurme: ["HurmeGeometricSans", "sans-serif"]
-        // boldHurme: "HurmeGeometricSansBold",
+        primaryHurme: ["HurmeGeometricSans", "sans-serif"],
+        boldHurme: ["HurmeGeometricSansBold", "sans-serif"]
         // poppins: "Poppins"
       },
     },

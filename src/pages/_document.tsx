@@ -9,7 +9,7 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@400;500;600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" />
       </Head>
-      <body className="bg-app h-auto bg-cover bg-center bg-no-repeat bg-fixed overflow-x-hidden font-primaryHurme">
+      <body className="font-primaryHurme">
         <Main />
         <NextScript />
       </body>
