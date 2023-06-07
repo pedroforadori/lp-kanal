@@ -11,7 +11,7 @@ export default function NewBanker() {
                     <h2 className="text-4xl font-bold">Seja um Banker do Kanal</h2>
                     <p className="text-xl font-poppins max-sm:py-4">No Kanal, você tem total autonomia sobre suas propostas e solicitações</p>
                     <div className="flex justify-center" id="isMobile">
-                        <Form radioGroupName="period-new-banker"/>
+                        <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>
                     </div>
                     <p className="text-xl font-poppins max-sm:text-center my-4">Caso tenha alguma dúvida utilize os canais abaixo</p>
                         <div className="max-sm:w-full max-sm:items-center max-sm:flex max-sm:flex-col-reverse">
@@ -34,7 +34,7 @@ export default function NewBanker() {
                     </div>
                 </div>
                 <div className="flex justify-center max-sm:hidden">
-                    <Form radioGroupName="period-new-banker"/>
+                    <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>
                 </div>
             </div>
         </section>

@@ -13,7 +13,7 @@ export default function Apresentation() {
                     <h1 className="text-5xl mb-[25px] max-sm:text-4xl max-sm:mt-[-50px]">Somos uma <br /> <span className="text-[#FF4C00] font-bold">fintech</span> com uma <br />Plataforma Digital<span className="text-[#FF4C00] font-bold">.</span></h1>
                     <p className="text-2xl mb-[25px] max-sm:hidden">Um <span className="text-[#FF4C00] font-bold">ecossistema</span> completo, <br />garantindo autonomia sobre <br />suas operações potencializando <br /> seus ganhos.</p>
                     <p className="text-2xl mb-[25px]" id="isMobile">Com autonomia sobre suas operações e comissões antecipadas e aumente seus ganhos</p>
-                    <Form radioGroupName="period-apresentation"/>
+                    <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>
                 </div>
                 <div className="flex justify-end items-start">
                     <Image src="/assets/image/athor.png" alt="logo" width={750} height={720}/>
