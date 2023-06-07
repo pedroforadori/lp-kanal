@@ -5,7 +5,8 @@ export default function Two() {
     return (
         <div className="w-full h-[185vh] flex flex-col bg-gradient-to-b from from-[#FFFFFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90% max-sm:h-auto">
             <Image className="absolute left-[-20px] max-sm:hidden" src="/assets/image/ellipse-blue.png" alt="logo" width={286} height={366}  />
-            <div className="flex flex-row max-sm:flex max-sm:flex-col-reverse max-sm:items-center px-56">
+            <div className="flex flex-row px-56
+                            max-sm:flex max-sm:flex-col-reverse max-sm:items-center max-sm:px-0">
                 <div className="w-[500px] mt-52 flex-col ml-40 max-sm:w-auto max-sm:ml-0 max-sm:mt-4 ">
                     <p className="flex justify-end text-3xl text-[#222222] max-sm:justify-center">Por que ser um</p>
                     <div className="flex justify-end text-4xl text-[#222222] mb-5 font-bold max-sm:justify-center max-sm:mx-28 max-sm:text-end">Banker do Kanal?</div>
@@ -29,13 +30,13 @@ export default function Two() {
                 </div>                    
                 <Image className="" src="/assets/image/iphone.png" alt="logo" width={295} height={600} id="isMobile"/>
             </div>
-            <div className="mt-20 px-32">
+            <div className="mt-20 px-32 max-sm:px-0">
                 <div className="flex flex-row  justify-center items-center max-sm:flex-col">
                     <div className="flex flex-col ">
                         <div className="flex justify-center text-[#2C2E50] text-4xl max-sm:mx-4">
                             Vantagens para o Banker do Kanal.
                         </div>
-                        <div className="flex flex-row mt-12 justify-center
+                        <div className="flex flex-row mt-12 justify-center max-sm:items-center
                                         max-sm:flex-col max-sm:gap-10 max-sm:mb-10 max-sm:px-4">
                             <Image src="/assets/image/tie.png" alt="logo" width={250} height={100} />
                             <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[100px] top-[-10px] max-sm:hidden" />
@@ -62,7 +63,8 @@ export default function Two() {
                 </div>
                 <Image className="absolute left-[-200px] max-sm:hidden" src="/assets/image/ellipse-green.png" alt="logo" width={450} height={366}/>
                 <Image className="absolute right-0 max-sm:hidden" src="/assets/image/ellipse-pink.png" alt="logo" width={250} height={250}/>
-                <div className="flex flex-row gap-10 mt-12 justify-center max-sm:flex-col max-sm:mt-4 max-sm:px-4">
+                <div className="flex flex-row gap-10 mt-12 justify-center 
+                                max-sm:flex-col max-sm:mt-4 max-sm:px-4">
                     <div className="w-[264px] h-[286px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6
                                     max-sm:w-auto max-sm:h-auto max-sm:p-6">
                         <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px] max-sm:hidden" />
