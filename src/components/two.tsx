@@ -31,6 +31,7 @@ export default function Two() {
                     </div>                    
                     <Image className="" src="/assets/image/iphone.png" alt="logo" width={295} height={600} id="isMobile"/>
                 </div>
+            </div>
                 <div className="mt-20 px-32 max-sm:px-0">
                     <div className="flex flex-row  justify-center items-center max-sm:flex-col">
                         <div className="flex flex-col ">
@@ -66,7 +67,7 @@ export default function Two() {
                     <Image className="absolute right-0 max-sm:hidden" src="/assets/image/ellipse-pink.png" alt="logo" width={250} height={250}/>
                     <div className="flex flex-row gap-10 mt-12 justify-center 
                                     max-sm:flex-col max-sm:mt-4 max-sm:px-4">
-                        <div className="w-[264px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6
+                        <div className="w-[264px] h-[290px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6
                                         max-sm:w-auto max-sm:h-auto max-sm:p-6">
                             <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px] max-sm:hidden" />
                             <Image className="mb-4" src="/assets/ico/ico-suport.png" alt="logo" width={50} height={50}/>
@@ -96,7 +97,7 @@ export default function Two() {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
     )
 }

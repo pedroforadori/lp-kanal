@@ -97,7 +97,7 @@ export default function Form(props: IForm){
                 <div className="flex flex-col items-center justify-between max-sm:items-start">
                     <p className="mt-4 justify-center text-white max-sm:text-center">Você possui carteira de clientes?</p>
                     <div className="mt-1 gap-3 flex justify-end text-white max-sm:flex-wrap max-sm:justify-between">
-                        <div className="bg-[#475467] flex items-center justify-center gap-1 rounded-lg active:bg-[#121323] focus:bg-[#121323] px-6 py-2">
+                        <div className="bg-[#475467] flex items-center justify-center gap-1 rounded-lg peer-checked:bg-[#121323] px-6 py-2 ">
                             <input 
                                 className="accent-[#FF4C00]" 
                                 type="radio" 
@@ -112,12 +112,12 @@ export default function Form(props: IForm){
                             <input 
                                 className="accent-[#FF4C00]" 
                                 type="radio" 
-                                name={props.radioGroupPeriod} 
-                                id={`n${props.radioGroupPeriod}`} 
+                                name={props.radioGroupContact} 
+                                id={`n${props.radioGroupContact}`} 
                                 value="N" 
                                 onChange={(event) => setStatus(event.target.value)} 
                             /> 
-                            <label htmlFor={`n${props.radioGroupPeriod}`}>Não</label>
+                            <label className="active:bg-[#121323] focus:bg-[#121323] " htmlFor={`n${props.radioGroupContact}`}>Não</label>
                         </div>
                     </div>
                 </div>

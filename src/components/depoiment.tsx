@@ -22,7 +22,7 @@ export default function Depoiment() {
             <Carousel itemsToShow={1} className="mb-20">
                 {jsonQuestion.items.map((item) => (
                     <div key={item.id} className="w-full h-80 flex justify-center bg-[#0E0E0E] pt-5">
-                        <div className="w-auto bg-[#161616] p-5 mt-10 rounded-3xl">
+                        <div className="w-auto bg-[#161616] p-5 mt-10 rounded-3xl mr-5">
                             <div className="text-base font-poppins h-20"> 
                                 <div className="flex flex-row items-center justify-center gap-2 ">
                                     <span className="relative top-[30px]"><Image src="/assets/ico/left-quote.png" alt="aspas" width={80} height={20}/></span>

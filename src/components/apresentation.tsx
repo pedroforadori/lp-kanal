@@ -3,7 +3,7 @@ import Form from "./form";
 
 export default function Apresentation() {
     return (
-        <section className="w-full h-screen flex flex-col items-center bg-[#191A30] max-sm:h-auto">
+        <section className="w-full h-auto flex flex-col items-center bg-[#191A30] max-sm:h-auto">
             <div className="max-w-7xl">
                 <div className="flex justify-between pt-12 max-sm:px-0">
                     <Image src="/assets/image/logo.png" alt="logo" width={140} height={0} quality={100} />
@@ -16,8 +16,8 @@ export default function Apresentation() {
                         <p className="text-2xl mb-[25px]" id="isMobile">Com autonomia sobre suas operações e comissões antecipadas e aumente seus ganhos</p>
                         <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>
                     </div>
-                    <div className="flex justify-end items-start">
-                        <Image src="/assets/image/athor.png" alt="logo" width={750} height={720}/>
+                    <div className="flex justify-around items-end mb-16">
+                        <Image src="/assets/image/athor.png" alt="logo" width={1100} height={720}/>
                     </div>
                     
                 </div>
