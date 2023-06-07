@@ -11,8 +11,8 @@ export default function Form(props: IForm){
     const [ email, setEmail ] = useState<string>()
     const [ name, setName ] = useState<string>()
     const [ linkedinUrl, setLinkedinUrl ] = useState<string>()
-    const [ phone, setOccupation ] = useState<string>()
-    const [ occupation, setPhone ] = useState<string>()
+    const [ phone, setPhone ] = useState<string>()
+    const [ occupation, setOccupation ] = useState<string>()
     const [ status, setStatus ] = useState<string>()
     const [ contactAt, setContactAt ] = useState<string>()
 
