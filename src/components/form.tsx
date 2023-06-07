@@ -164,7 +164,7 @@ export default function Form(props: IForm){
            <hr className="mt-4 h-px my-8 bg-[#2A2B4F] border-0 " />
            <div className="flex flex-row justify-around items-center my-16 
                            max-sm:flex-col ">
-             <p className="text-xs mt-3 text-white max-sm:mb-4">Ao clicar em &#34;quero ser banker&#34; voce aceita os termos <br className="max-sm:hidden" /> e condições do Kanal Open Finance</p>
+             <p className="text-xs mt-3 text-white max-sm:mb-4">Ao clicar em &#34;quero ser banker&#34; você aceita os termos <br className="max-sm:hidden" /> e condições do Kanal Open Finance</p>
              <button className="bg-[#FF4C00] rounded-lg max-sm:w-full py-3 px-6" type="submit">Quero ser um banker</button>
            </div>
         </form>

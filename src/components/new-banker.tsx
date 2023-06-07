@@ -27,9 +27,9 @@ export default function NewBanker() {
                                 >
                                     <WhatsappLogo size={40} />
                                 </Link>
-                                <button className="flex justify-center items-center text-white bg-[#6D3BF2] rounded-lg gap-[10px] px-10 py-4">
+                                <Link href="mailto:sejabanker@kanal.com.br" className="flex justify-center items-center text-white bg-[#6D3BF2] rounded-lg gap-[10px] px-10 py-4">
                                     <Envelope size={40} />
-                                </button>
+                                </Link>
                             </div>
                         
                         </div>

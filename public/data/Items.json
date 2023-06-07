@@ -39,6 +39,14 @@
           "city": "Goiania - GO",
           "type": "Banker do Kanal",
           "photo": "/assets/image-depoiment/ana.png"
+        },
+        {
+          "id": 6 ,
+          "depoiment": "Gostaria de agradecer em nome da Vettore23 Investimentos todo o apoio da Kanal , criamos uma parceria de sucesso sempre  com soluções inteligentes  e efetivas sob medida para cada cliente!",
+          "name": "Cesar Vettorelli",
+          "city": "São Paulo - SP",
+          "type": "Banker do Kanal",
+          "photo": "/assets/image-depoiment/cezar.png"
         } 
       ]
   }
