@@ -18,19 +18,24 @@ export default function About() {
 
             </div>
             <div className="mt-11 overflow-x-scroll">
-                <div className="flex flex-row my-10 h-10 gap-5 w-[550px] max-sm:w-[320px]">
-                    <Image src="/assets/ico-partners/logo-belvo.png" alt="detalhes imagem" width={80} height={60} />
-                    <Image src="/assets/ico-partners/bradesco.png" alt="detalhes imagem" width={100} height={40} />
-                    <Image src="/assets/ico-partners/itau.png" alt="detalhes imagem" width={40} height={30} />
-                    <Image src="/assets/ico-partners/santander.png" alt="detalhes imagem" width={80} height={50} />
-                    <Image src="/assets/ico-partners/logo-portoseguro.png" alt="detalhes imagem" width={60} height={40} />
-                    <Image src="/assets/ico-partners/logo-bv.png" alt="detalhes imagem" width={80} height={40} />
-                    <Image src="/assets/ico-partners/abensur.png" alt="detalhes imagem" width={80} height={60} />
-                    <Image src="/assets/ico-partners/logo-credihome.png" alt="detalhes imagem" width={100} height={40} />
-                    <Image src="/assets/ico-partners/logo-daycoval.png" alt="detalhes imagem" width={70} height={30} />
-                    <Image src="/assets/ico-partners/logo-elo.png" alt="detalhes imagem" width={90} height={50} />
-                    <Image src="/assets/ico-partners/logo-flip.png" alt="detalhes imagem" width={90} height={40} />
-                    <Image src="/assets/ico-partners/logo-bv.png" alt="detalhes imagem" width={80} height={40} />
+                <div className="flex flex-row my-10 h-10 gap-7 w-[550px] max-sm:w-[320px]">
+                    <Image src="/assets/ico-partners/bancodobrasil.png" alt="detalhes imagem" width={170} height={60} />
+                    <Image src="/assets/ico-partners/banrisul.png" alt="detalhes imagem" width={170} height={40} />
+                    <Image src="/assets/ico-partners/bari.png" alt="detalhes imagem" width={80} height={30} />
+                    <Image src="/assets/ico-partners/bradesco.png" alt="detalhes imagem" width={100} height={30} />
+                    <Image src="/assets/ico-partners/BV.png" alt="detalhes imagem" width={80} height={50} />
+                    <Image src="/assets/ico-partners/CAIXA.png" alt="detalhes imagem" width={140} height={40} />
+                    <Image src="/assets/ico-partners/cashme.png" alt="detalhes imagem" width={150} height={40} />
+                    <Image src="/assets/ico-partners/creditas.png" alt="detalhes imagem" width={130} height={60} />
+                    <Image src="/assets/ico-partners/daycoval.png" alt="detalhes imagem" width={170} height={40} />
+                    <Image src="/assets/ico-partners/inter.png" alt="detalhes imagem" width={100} height={30} />
+                    <Image src="/assets/ico-partners/itau.png" alt="detalhes imagem" width={100} height={50} />
+                    <Image src="/assets/ico-partners/MAG.png" alt="detalhes imagem" width={100} height={40} />
+                    <Image src="/assets/ico-partners/nexoos.png" alt="detalhes imagem" width={140} height={40} />
+                    <Image src="/assets/ico-partners/pine.png" alt="detalhes imagem" width={100} height={40} />
+                    <Image src="/assets/ico-partners/porto.png" alt="detalhes imagem" width={100} height={40} />
+                    <Image src="/assets/ico-partners/Santander.png" alt="detalhes imagem" width={180} height={40} />
+                    <Image src="/assets/ico-partners/sofisa.png" alt="detalhes imagem" width={100} height={40} />
                 </div>
             </div>
             {/* <span className="w-[300px] min-h-[31px] mt-10 h-8 bg-[#FF0068]" /> */}

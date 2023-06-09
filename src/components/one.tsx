@@ -18,10 +18,10 @@ export default function One() {
                                 Empreenda em um  
                             </div>
                             <div className="flex flex-row relative right-20">
-                                <div className="bg-[#6FFC2D] h-12 pl-20 text-black text-right">ecossistema</div>completo
+                                <div className="bg-[#6FFC2D] h-12 pl-20 text-black text-right mr-2">ecossistema</div>completo
                             </div>
                             <div className="flex flex-row">
-                                <span>com</span> <div className="bg-[#6FFC2D] h-12 text-black mt-1 flex items-center">100% de autonomia</div>
+                                <span>com</span> <div className="bg-[#6FFC2D] h-12 text-black mt-1 flex items-center ml-2">100% de autonomia</div>
                             </div>
                         </div>
                         <div className="mt-10 max-sm:hidden">
@@ -56,11 +56,11 @@ export default function One() {
                         </div>
                         <div className="rounded-[32px] bg-[#2168FC] text-white p-12 mb-5 z-10 max-sm:hidden ml-8">
                             <div className="text-3xl font-bold mb-4">Quem é elegivel?</div>
-                            <p>Assessores de investimento, corretores de todos os segmentos, correspondentes bancários, ex-bancários, consultores, contadores e profissionais que tenham perfil empreendedor</p>
+                            <p>Assessores de investimento, corretores de todos os segmentos, correspondentes bancários, ex-bancários, consultores, contadores e profissionais que tenham perfil empreendedor.</p>
                         </div>
                         <div className="rounded-[32px] bg-[#2168FC] mx-4 mt-4 text-white p-12 mb-5 z-10" id="isMobile">
                             <div className="text-3xl font-bold mb-4">Quem é elegivel?</div>
-                            <p>Assessores de investimento, corretores de todos os segmentos, correspondentes bancários, ex-bancários, consultores, contadores e profissionais que tenham perfil empreendedor</p>
+                            <p>Assessores de investimento, corretores de todos os segmentos, correspondentes bancários, ex-bancários, consultores, contadores e profissionais que tenham perfil empreendedor.</p>
                         </div>
                 </div>
             </div>

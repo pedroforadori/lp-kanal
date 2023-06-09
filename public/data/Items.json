@@ -53,14 +53,14 @@
           "depoiment": "O Kanal Open Finance me permite ter acesso, dentro de uma plataforma, aos melhores serviços bancários e financeiros do mercado. Me apoiam na condução das negociações com transparência e eficiência, até que o cliente receba o serviço ou produto ideal para sua necessidade.",
           "name": "John Peter Cunninguanam",
           "city": "São Paulo - SP",
-          "type": "Banker do Kanal",
+          "type": "Cliente",
           "photo": "/assets/image-depoiment/jpc.png"
         },
         {
           "id":8,
-          "depoiment": "Hoje atuo como  gerente de expansão aqui no Kanal, e acredito que sou responsável por trazer bankers com boa experiência de mercado. Então acredito que sou a 'porta de entrada' desta empresa!",
+          "depoiment": "Hoje atuo como gerente de expansão aqui no Kanal, e acredito que sou responsável por trazer bankers com boa experiência de mercado. Então acredito que sou a 'porta de entrada' desta empresa!",
           "name": "Fernanda Tenente",
-          "city": "São Paulo - SP",
+          "city": "Florianópolis - SC",
           "type": "Expansão e Onboarding ",
           "photo": "/assets/image-depoiment/fernandatenente.png"
         },
@@ -69,7 +69,7 @@
           "depoiment": "O Kanal vem me proporcionando muito aprendizado e mais conhecimento na minha área jurídica de formação. Sem contar a alegria de fazer parte da construção dessa plataforma tecnológica incrível!",
           "name": "Juliana Oliveira",
           "city": "São Paulo - SP",
-          "type": "Expansão e Onboarding ",
+          "type": "Mesa de Operações",
           "photo": "/assets/image-depoiment/julianaoliveira.png"
         },
         {
