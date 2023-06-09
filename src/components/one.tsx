@@ -35,9 +35,8 @@ export default function One() {
                                 Acompanhamento da jornada de ponta a ponta: Traga o seu relacionamento que nós cuidamos do resto.
                             </p>
                             <p className="bg-[#121323] text-base text-white p-3 rounded-lg">
-                                Presença nacional: Parceiros em mais de 20 Estados, em todas as regiões do País <br />
+                                Presença nacional: Parceiros em mais de 20 Estados, em todas as regiões do Brasil. <br />
                                 Somos uma fintech que pensa como você. <br />
-                                #VEMSERKANAL
                             </p>
                         </div>
                         

@@ -6,6 +6,17 @@ export default function About() {
         <div className="w-full flex flex-col items-center bg-[#F1F1FB] max-sm:bg-white">
             <h2 className="mt-24 text-4xl">Quem somos<span className="text-[#FF4C00]">.</span></h2>
             <p className="mt-10 w-[600px] font-light text-center max-sm:mx-8 max-sm:w-auto">O Kanal é uma plataforma digital integradora de produtos e serviços, que busca democratizar e simplificar o acesso ao mercado financeiro.</p>
+            <div className="grid grid-cols-2 my-12 gap-12 max-sm:hidden">
+                <div className="flex fle flex-row gap-4">
+                    <p className="text-7xl font-bold">50+</p>
+                    <p className="text-2xl">Bancos e <br /> Fintechs</p>
+                </div>
+                <div className="flex fle flex-row gap-4">
+                    <p className="text-7xl font-bold">150+</p>
+                    <p className="text-2xl">Produtos <br /> financeiros</p>
+                </div>
+
+            </div>
             <div className="mt-11 overflow-x-scroll">
                 <div className="flex flex-row my-10 h-10 gap-5 w-[550px] max-sm:w-[320px]">
                     <Image src="/assets/ico-partners/logo-belvo.png" alt="detalhes imagem" width={80} height={60} />

@@ -35,7 +35,7 @@ export default function Form(props: IForm){
     }
 
     return(
-        <form onSubmit={handleSubimit} className="w-[550px]">
+        <form onSubmit={handleSubimit} className="w-[550px] max-sm:w-auto">
             <div className="flex flex-col">
                 <label className="mb-1">Nome completo</label>
                 <input 
