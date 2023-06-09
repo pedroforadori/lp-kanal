@@ -91,7 +91,7 @@ export default function Form(props: IForm){
                         <option value="Corretoras de Investimento e correlatos">Investimentos</option>
                         <option value="Segudoras e correlatos">Seguros</option>
                         <option value="Escritório Contábil e correlatos">Contabilidade</option>
-                        <option value="Corretores Imobiliários e correlatos">Corresponde Bancário</option>
+                        <option value="Corretores Imobiliários e correlatos">Correspondente Bancário</option>
                         <option value="Corretores Imobiliários e correlatos">Assessoria e Consultoria</option>
                         <option value="Outros">Outros</option>
                     </select>
