@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Form from "./form";
 
 export default function Apresentation() {
@@ -7,7 +8,7 @@ export default function Apresentation() {
             <div className="max-w-7xl">
                 <div className="flex justify-between pt-12 max-sm:px-0">
                     <Image src="/assets/image/logo.png" alt="logo" width={140} height={0} quality={100} />
-                    <button className="bg-white rounded-lg px-6 py-4 font-bold max-sm:hidden">Área logada do Banker</button>
+                    <Link href="https://marketplace.kanal.com.br/login" className="bg-white rounded-lg px-6 py-4 font-bold max-sm:hidden">Área logada do Banker</Link>
                 </div>
                 <div className="flex justify-center text-white mt-[60px] pl-[120px] max-sm:flex max-sm:flex-col-reverse max-sm:px-8 max-sm:mt-8">
                     <div className="flex flex-col">

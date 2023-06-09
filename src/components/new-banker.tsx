@@ -35,7 +35,7 @@ export default function NewBanker() {
                         </div>
                     </div>
                     <div className="flex justify-center max-sm:hidden">
-                        <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>
+                        <Form radioGroupPeriod="period-apresentation-question" radioGroupContact="period-contact-question"/>
                     </div>
                 </div>
             </div>
