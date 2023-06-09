@@ -15,8 +15,8 @@ export default function About() {
                     <p className="text-7xl font-bold">150+</p>
                     <p className="text-2xl">Produtos <br /> financeiros</p>
                 </div>
-
             </div>
+            <p className="mt-10 w-[600px] font-light text-center max-sm:mx-8 max-sm:w-auto">Confira alguns de nossos parceiros:</p>
             <div className="mt-11 overflow-x-scroll">
                 <div className="flex flex-row my-10 h-10 gap-7 w-[550px] max-sm:w-[320px]">
                     <img src="/assets/ico-partners/bancodobrasil.png" alt="detalhes imgm" />

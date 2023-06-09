@@ -10,7 +10,6 @@ export default function One() {
                     <div className="max-sm:flex max-sm:flex-col">
                         <Image src="/assets/image/img-two.png" className="max-sm:hidden" alt="logo" width={464} height={650}/>
                         <Image src="/assets/image/banco.png" id="isMobile" alt="logo" width={390} height={320}/>
-                        <Image className="mt-[-150px] left-28 z-20 absolute max-sm:hidden" src="/assets/image/detail.png" alt="logo" width={300} height={180}/>
                     </div>
                     <div className="max-sm:hidden mt-5">
                         <div className="text-5xl text-white font-bold">
@@ -41,7 +40,7 @@ export default function One() {
                         
                     </div>
                 </div>
-                <div className="flex flex-row justify-between max-sm:flex-col">
+                <div className="flex flex-row justify-between max-sm:flex-col mt-10">
                     <div className="w-full rounded-[32px] bg-[#121323] text-white p-12 max-sm:hidden">
                         <div className="text-3xl font-bold mb-4 ">Quem é o Banker do Kanal<span className="text-[#6D3BF2]">?</span></div>
                             <p>É um profissional do mercado financeiro com experiencia na intermediação de operações comerciais, conectando soluções personalizadas aos seus clientes.</p>
