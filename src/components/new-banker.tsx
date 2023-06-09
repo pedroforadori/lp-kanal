@@ -14,7 +14,7 @@ export default function NewBanker() {
                         <div className="flex justify-center" id="isMobile">
                             <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>
                         </div>
-                        <p className="text-xl font-poppins max-sm:text-center my-4">Caso tenha alguma dúvida utilize os canais abaixo</p>
+                        <p className="text-xl font-poppins max-sm:text-center my-4">Caso tenha alguma dúvida utilize os canais abaixo:</p>
                             <div className="max-sm:w-full max-sm:items-center max-sm:flex max-sm:flex-col-reverse">
                                 <button className="max-sm:w-full flex justify-center items-center text-white px-[10px] py-3 bg-[#6D3BF2] rounded-lg gap-[10px]  mt-4">
                                     <Phone size={32} weight="fill" />
