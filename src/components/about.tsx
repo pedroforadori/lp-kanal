@@ -19,23 +19,23 @@ export default function About() {
             </div>
             <div className="mt-11 overflow-x-scroll">
                 <div className="flex flex-row my-10 h-10 gap-7 w-[550px] max-sm:w-[320px]">
-                    <Image src="/assets/ico-partners/bancodobrasil.png" alt="detalhes imagem" width={170} height={60} />
-                    <Image src="/assets/ico-partners/banrisul.png" alt="detalhes imagem" width={170} height={40} />
-                    <Image src="/assets/ico-partners/bari.png" alt="detalhes imagem" width={80} height={30} />
-                    <Image src="/assets/ico-partners/bradesco.png" alt="detalhes imagem" width={100} height={30} />
-                    <Image src="/assets/ico-partners/BV.png" alt="detalhes imagem" width={80} height={50} />
-                    <Image src="/assets/ico-partners/CAIXA.png" alt="detalhes imagem" width={140} height={40} />
-                    <Image src="/assets/ico-partners/cashme.png" alt="detalhes imagem" width={150} height={40} />
-                    <Image src="/assets/ico-partners/creditas.png" alt="detalhes imagem" width={130} height={60} />
-                    <Image src="/assets/ico-partners/daycoval.png" alt="detalhes imagem" width={170} height={40} />
-                    <Image src="/assets/ico-partners/inter.png" alt="detalhes imagem" width={100} height={30} />
-                    <Image src="/assets/ico-partners/itau.png" alt="detalhes imagem" width={100} height={50} />
-                    <Image src="/assets/ico-partners/MAG.png" alt="detalhes imagem" width={100} height={40} />
-                    <Image src="/assets/ico-partners/nexoos.png" alt="detalhes imagem" width={140} height={40} />
-                    <Image src="/assets/ico-partners/pine.png" alt="detalhes imagem" width={100} height={40} />
-                    <Image src="/assets/ico-partners/porto.png" alt="detalhes imagem" width={100} height={40} />
-                    <Image src="/assets/ico-partners/Santander.png" alt="detalhes imagem" width={180} height={40} />
-                    <Image src="/assets/ico-partners/sofisa.png" alt="detalhes imagem" width={100} height={40} />
+                    <img src="/assets/ico-partners/bancodobrasil.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/banrisul.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/bari.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/bradesco.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/BV.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/CAIXA.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/cashme.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/creditas.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/daycoval.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/inter.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/itau.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/MAG.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/nexoos.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/pine.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/porto.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/Santander.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/sofisa.png" alt="detalhes imagem" />
                 </div>
             </div>
             {/* <span className="w-[300px] min-h-[31px] mt-10 h-8 bg-[#FF0068]" /> */}

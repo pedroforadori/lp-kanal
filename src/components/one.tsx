@@ -10,7 +10,7 @@ export default function One() {
                     <div className="max-sm:flex max-sm:flex-col">
                         <Image src="/assets/image/img-two.png" className="max-sm:hidden" alt="logo" width={464} height={650}/>
                         <Image src="/assets/image/banco.png" id="isMobile" alt="logo" width={390} height={320}/>
-                        <Image className="mt-[-150px] ml-7 z-20 absolute max-sm:hidden" src="/assets/image/detail.png" alt="logo" width={300} height={180}/>
+                        <Image className="mt-[-150px] left-28 z-20 absolute max-sm:hidden" src="/assets/image/detail.png" alt="logo" width={300} height={180}/>
                     </div>
                     <div className="max-sm:hidden mt-5">
                         <div className="text-5xl text-white font-bold">
