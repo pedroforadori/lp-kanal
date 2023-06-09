@@ -86,11 +86,13 @@ export default function Form(props: IForm){
                         value={occupation}
                         onChange={(event) => setOccupation(event.target.value)} 
                     >
-                        <option value="Bancos e correlatos">Bancos e correlatos</option>
-                        <option value="Corretoras de Investimento e correlatos">Corretoras de Investimento e correlatos</option>
-                        <option value="Segudoras e correlatos">Seguradoras e correlatos</option>
-                        <option value="Escritório Contábil e correlatos">Escritório Contábil e correlatos</option>
-                        <option value="Corretores Imobiliários e correlatos">Corretores Imobiliários e correlatos</option>
+                        <option value="0" defaultChecked>Finanças, assessoria, etc...</option>
+                        <option value="Bancos e correlatos">Bancos</option>
+                        <option value="Corretoras de Investimento e correlatos">Investimentos</option>
+                        <option value="Segudoras e correlatos">Seguros</option>
+                        <option value="Escritório Contábil e correlatos">Contabilidade</option>
+                        <option value="Corretores Imobiliários e correlatos">Corresponde Bancário</option>
+                        <option value="Corretores Imobiliários e correlatos">Assessoria e Consultoria</option>
                         <option value="Outros">Outros</option>
                     </select>
                 </div>
