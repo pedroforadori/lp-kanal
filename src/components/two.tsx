@@ -3,7 +3,7 @@ import { FacebookLogo, InstagramLogo, WhatsappLogo, EnvelopeSimple } from 'phosp
 
 export default function Two() {
     return (
-        <div className="w-full h-[185vh] flex flex-col items-center bg-gradient-to-b from from-[#FFFFFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90% max-sm:h-auto">
+        <div className="w-full h-[185vh] flex flex-col mb-20 items-center bg-gradient-to-b from from-[#FFFFFF] from-25% via-[#F7EAFF] via-50% to-[#FFFFFF] to-90% max-sm:h-auto">
             <div className="max-w-7xl">
                 <Image className="absolute left-[-20px] max-sm:hidden" src="/assets/image/ellipse-blue.png" alt="logo" width={286} height={366}  />
                 <div className="flex flex-row
@@ -65,9 +65,9 @@ export default function Two() {
                     </div>
                     <Image className="absolute left-[-200px] max-sm:hidden" src="/assets/image/ellipse-green.png" alt="logo" width={450} height={366}/>
                     <Image className="absolute right-0 max-sm:hidden" src="/assets/image/ellipse-pink.png" alt="logo" width={250} height={250}/>
-                    <div className="flex flex-row gap-10 mt-12 justify-center 
+                    <div className="flex flex-row gap-10 mt-12 justify-center
                                     max-sm:flex-col max-sm:mt-4 max-sm:px-4">
-                        <div className="w-[264px] h-[290px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6
+                        <div className="w-[264px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6
                                         max-sm:w-auto max-sm:h-auto max-sm:p-6">
                             <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px] max-sm:hidden" />
                             <Image className="mb-4" src="/assets/ico/ico-suport.png" alt="logo" width={50} height={50}/>
