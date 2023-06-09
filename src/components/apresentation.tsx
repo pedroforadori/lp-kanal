@@ -7,7 +7,7 @@ export default function Apresentation() {
         <section className="w-full h-auto flex flex-col items-center bg-[#191A30] max-sm:h-auto max-sm:items-stretch">
             <div className="max-w-7xl">
                 <div className="flex justify-between pt-12 max-sm:px-0">
-                    <img src="/assets/image/logo.png" alt="logo" />
+                    <img src="/assets/image/logo.svg" alt="logo" />
                     {/* <Image src="/assets/image/logo.png" alt="logo" width={120} height={0}/> */}
                     <Link href="https://marketplace.kanal.com.br/login" className="bg-white rounded-lg px-6 py-4 font-bold max-sm:hidden">Área logada do Banker</Link>
                 </div>
