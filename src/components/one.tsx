@@ -35,8 +35,7 @@ export default function One() {
                                 Acompanhamento da jornada de ponta a ponta: Traga o seu relacionamento que nós cuidamos do resto.
                             </p>
                             <p className="bg-[#121323] text-base text-white p-3 rounded-lg">
-                                Presença nacional: Parceiros em mais de 20 Estados, em todas as regiões do Brasil. <br />
-                                Somos uma fintech que pensa como você. <br />
+                                Presença nacional: Parceiros em mais de 20 Estados, em todas as regiões do Brasil.
                             </p>
                         </div>
                         
@@ -55,11 +54,11 @@ export default function One() {
                             <p>É um profissional do mercado financeiro com experiencia na intermediação de operações comerciais, conectando soluções personalizadas aos seus clientes.</p>
                         </div>
                         <div className="rounded-[32px] bg-[#2168FC] text-white p-12 mb-5 z-10 max-sm:hidden ml-8">
-                            <div className="text-3xl font-bold mb-4">Quem é elegivel?</div>
+                            <div className="text-3xl font-bold mb-4">Quem é elegível?</div>
                             <p>Assessores de investimento, corretores de todos os segmentos, correspondentes bancários, ex-bancários, consultores, contadores e profissionais que tenham perfil empreendedor.</p>
                         </div>
                         <div className="rounded-[32px] bg-[#2168FC] mx-4 mt-4 text-white p-12 mb-5 z-10" id="isMobile">
-                            <div className="text-3xl font-bold mb-4">Quem é elegivel?</div>
+                            <div className="text-3xl font-bold mb-4">Quem é elegível?</div>
                             <p>Assessores de investimento, corretores de todos os segmentos, correspondentes bancários, ex-bancários, consultores, contadores e profissionais que tenham perfil empreendedor.</p>
                         </div>
                 </div>

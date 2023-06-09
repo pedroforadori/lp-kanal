@@ -21,7 +21,7 @@ export default function DepoimentMobile() {
             // @ts-ignore */}
             <Carousel itemsToShow={1} className="mb-20">
                 {jsonQuestion.items.map((item) => (
-                    <div key={item.id} className="">
+                    <div key={item.id} className="gap-5">
                         <div className="w-full flex flex-col items-center justify-center p-5 mt-10 rounded-3xl">
                                 <Image src={item.photo} alt={item.photo} width={100} height={80} />
                                     <hr className="mt-4 w-full px-40 mb-1" />
@@ -34,7 +34,7 @@ export default function DepoimentMobile() {
                                     <p className="font-light text-base text-[#475467]">
                                         {item.type}
                                     </p>
-                            <div className="text-base font-poppins h-20 mt-4"> 
+                            <div className="text-base font-poppins h-40 mt-4"> 
                                 <div className="flex flex-row items-center justify-center gap-2 ">
                                     <span className="relative top-[30px]"><Image src="/assets/ico/left-quote.png" alt="aspas" width={80} height={20}/></span>
                                     <p className="max-h-4 leading-5 text-justify">{item.depoiment}</p>
