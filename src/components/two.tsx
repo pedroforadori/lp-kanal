@@ -46,7 +46,7 @@ export default function Two() {
                                                 max-sm:w-auto max-sm:h-auto max-sm:p-6"> 
                                     <p className="flex flex-row mt-9 text-xl items-center justify-center gap-4">
                                         <Image className="" src="/assets/ico/ico-ti.png" alt="logo" width={30} height={30}/>  
-                                        <span>Tecnologia</span>
+                                        <span className="font-boldHurme">Tecnologia</span>
                                     </p>
                                     <p className="px-6 mt-6 text-base font-light">Plataforma 100% na sua mão, 24/7! Status em tempo real e captação de documentação de maneira ágil.</p>
                                 </div>
@@ -55,7 +55,7 @@ export default function Two() {
                                                 max-sm:w-auto max-sm:h-auto max-sm:p-6">                
                                     <p className="flex flex-row mt-9 text-xl items-center justify-center gap-4">
                                         <Image className="" src="/assets/ico/ico-finan.png" alt="logo" width={30} height={30}/> 
-                                        Liberdade Financeira
+                                        <span className="font-boldHurme">Liberdade Financeira</span>
                                     </p>
                                     <p className="px-6 mt-6 text-base font-light">Trabalhe de onde quiser! <br /> Liberdade financeira e geográfica. Dedique seu tempo ao que realmente importa.</p>
                                 </div>
@@ -67,32 +67,32 @@ export default function Two() {
                     <Image className="absolute right-0 max-sm:hidden" src="/assets/image/ellipse-pink.png" alt="logo" width={250} height={250}/>
                     <div className="flex flex-row gap-10 mt-12 justify-center
                                     max-sm:flex-col max-sm:mt-4 max-sm:px-4">
-                        <div className="w-[264px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6
+                        <div className="w-[270px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] text-[#191A30] flex flex-col items-center justify-start px-6
                                         max-sm:w-auto max-sm:h-auto max-sm:p-6">
                             <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px] max-sm:hidden" />
                             <Image className="mb-4" src="/assets/ico/ico-suport.png" alt="logo" width={50} height={50}/>
-                            <p className="text-xl mb-4">Suporte exclusivo</p>
+                            <p className="text-xl mb-4 font-boldHurme">Suporte exclusivo</p>
                             <p className="font-light">Apoio integral. <br /> Tenha um consultor exclusivo para auxilia-lo nas suas operações do começo ao fim.</p>
                         </div>
-                        <div className="w-[264px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6
+                        <div className="w-[270px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6
                                         max-sm:w-auto max-sm:h-auto max-sm:p-6">
                         <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px] max-sm:hidden" />
                             <Image className="mb-4" src="/assets/ico/ico-autonomia.png" alt="logo" width={50} height={50}/>
-                            <p className="text-xl mb-4">Autonomia</p>
+                            <p className="text-xl mb-4 font-boldHurme">Autonomia</p>
                             <p className="font-light">Cadastre e acompanhe suas propostas diretamente na plataforma.</p>
                         </div>
-                        <div className="w-[264px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6
+                        <div className="w-[270px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6
                                         max-sm:w-auto max-sm:h-auto max-sm:p-6">
                             <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px] max-sm:hidden" />
                             <Image className="mb-4" src="/assets/ico/ico-efic.png" alt="logo" width={50} height={50}/>
-                            <p className="text-lg mb-4">Eficiência e assertividade</p>
+                            <p className="text-lg mb-4 font-boldHurme">Eficiência e assertividade</p>
                             <p className="font-light">Unificação dos dados cadastrais com bases de dados públicas. Análise com birôs de crédito reconhecidos no mercado.</p>
                         </div>
-                        <div className="w-[264px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6
+                        <div className="w-[270px] h-[320px] bg-[#F7EAFF] shadow-lg shadow-purple-300 rounded-[32px] flex flex-col items-center justify-start px-6
                                         max-sm:w-auto max-sm:h-auto max-sm:p-6">
                             <span className="w-7 h-7 rounded-full bg-[#6D3BF2] relative left-[-55px] top-[-10px] max-sm:hidden" />
                             <Image className="mb-4" src="/assets/ico/ico-product.png" alt="logo" width={50} height={50}/>
-                            <p className="text-xl mb-4">Produtos focados em sua rentabilidade</p>
+                            <p className="text-xl mb-4 font-boldHurme">Produtos focados em sua rentabilidade</p>
                             <p className="font-light">Portfólio de produtos direcionado para operações rentáveis.</p>
                         </div>
                     </div>

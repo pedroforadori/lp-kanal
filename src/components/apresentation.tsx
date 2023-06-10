@@ -13,7 +13,7 @@ export default function Apresentation() {
                 </div>
                 <div className="flex justify-center text-white mt-[60px] pl-[120px] max-sm:flex max-sm:flex-col-reverse max-sm:px-8 max-sm:mt-8">
                     <div className="flex flex-col">
-                        <h1 className="text-5xl mb-[25px] max-sm:text-4xl max-sm:mt-[-50px] font-boldHurme">Descomplique sua rotina e facilite sua vida</h1>
+                        <h1 className="text-5xl mb-[25px] max-sm:text-4xl max-sm:mt-[-50px] font-boldHurme leading-tight text-left"> <span className="bg-[#6FFC2D] text-black">Descomplique</span>  sua rotina e <span className="bg-[#6FFC2D] text-black">facilite</span> sua vida</h1>
                         <p className="text-2xl mb-[25px] max-sm:hidden">Ofereça os melhores produtos <br /> financeiros à sua carteira de clientes em <br /> um único lugar.</p>
                         <p className="text-2xl mb-[25px]" id="isMobile">Com autonomia sobre suas operações e comissões antecipadas e aumente seus ganhos</p>
                         <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>

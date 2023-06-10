@@ -40,7 +40,7 @@ export default function One() {
                         
                     </div>
                 </div>
-                <div className="flex flex-row justify-between max-sm:flex-col mt-10">
+                <div className="flex flex-row justify-between max-sm:flex-col mt-10 gap-5">
                     <div className="w-full rounded-[32px] bg-[#121323] text-white p-12 max-sm:hidden">
                         <div className="text-3xl font-bold mb-4 ">Quem é o Banker do Kanal<span className="text-[#6D3BF2]">?</span></div>
                             <p>É um profissional do mercado financeiro com experiencia na intermediação de operações comerciais, conectando soluções personalizadas aos seus clientes.</p>
@@ -52,7 +52,7 @@ export default function One() {
                             <div className="text-3xl font-bold mb-4 ">Quem é o Banker do Kanal<span className="text-[#6D3BF2]">?</span></div>
                             <p>É um profissional do mercado financeiro com experiencia na intermediação de operações comerciais, conectando soluções personalizadas aos seus clientes.</p>
                         </div>
-                        <div className="rounded-[32px] bg-[#2168FC] text-white p-12 mb-5 z-10 max-sm:hidden ml-8">
+                        <div className="w-full rounded-[32px] bg-[#2168FC] text-white p-12 z-10 max-sm:hidden">
                             <div className="text-3xl font-bold mb-4">Quem é elegível?</div>
                             <p>Assessores de investimento, corretores de todos os segmentos, correspondentes bancários, ex-bancários, consultores, contadores e profissionais que tenham perfil empreendedor.</p>
                         </div>
