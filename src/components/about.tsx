@@ -1,7 +1,29 @@
 import Image from 'next/image'
 import { FacebookLogo, InstagramLogo, WhatsappLogo, EnvelopeSimple } from 'phosphor-react'
+import { useEffect } from 'react';
 
 export default function About() {
+    let scrollPosition = 0;
+    const velocity = 2;
+    let animation;
+
+    function rolarPagina(element: any) {
+        //var 
+        document.getElementById("#parteners")?.scroll(0, scrollPosition += velocity);
+        
+        if (document.querySelector(element).offsetTop <= scrollPosition) {
+          return;
+        }
+        
+        animation = requestAnimationFrame(() => {
+          rolarPagina(element);
+        })
+      }
+
+      useEffect(() => {
+        rolarPagina("#parteners")
+    }, [])
+
     return (
         <div className="w-full flex flex-col items-center bg-[#F1F1FB] max-sm:bg-white">
             <h2 className="mt-24 text-4xl">Quem somos<span className="text-[#FF4C00]">.</span></h2>
@@ -16,10 +38,10 @@ export default function About() {
                     <p className="text-2xl">Produtos <br /> Financeiros</p>
                 </div>
             </div>
-            <p className="mt-10 w-[600px] text-center max-sm:mx-8 max-sm:w-auto font-boldHurme text-xl">Confira alguns de nossos parceiros:</p>
-            <div className="mt-11 overflow-x-scroll">
+            <p className="mt-10 w-[600px] text-center max-sm:mx-8 max-sm:w-auto text-4xl">Confira alguns de nossos parceiros:</p>
+            <div className="mt-11 overflow-x-scroll" id="parteners">
                 <div className="flex flex-row my-10 h-10 gap-7 w-[550px] max-sm:w-[320px]">
-                    <img src="/assets/ico-partners/bancodobrasil.png" alt="detalhes imgm" />
+                    <img src="/assets/ico-partners/banco-do-brasil.svg" alt="detalhes imgm" />
                     <img src="/assets/ico-partners/banrisul.png" alt="detalhes imgm" />
                     <img src="/assets/ico-partners/bari.png" alt="detalhes imgm" />
                     <img src="/assets/ico-partners/bradesco.png" alt="detalhes imgm" />
