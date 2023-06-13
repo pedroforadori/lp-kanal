@@ -1,28 +1,6 @@
 import Image from 'next/image'
-import { FacebookLogo, InstagramLogo, WhatsappLogo, EnvelopeSimple } from 'phosphor-react'
-import { useEffect } from 'react';
 
 export default function About() {
-    let scrollPosition = 0;
-    const velocity = 2;
-    let animation;
-
-    function rolarPagina(element: any) {
-        //var 
-        document.getElementById("#parteners")?.scroll(0, scrollPosition += velocity);
-        
-        if (document.querySelector(element).offsetTop <= scrollPosition) {
-          return;
-        }
-        
-        animation = requestAnimationFrame(() => {
-          rolarPagina(element);
-        })
-      }
-
-      useEffect(() => {
-        rolarPagina("#parteners")
-    }, [])
 
     return (
         <div className="w-full flex flex-col items-center bg-[#F1F1FB] max-sm:bg-white">
