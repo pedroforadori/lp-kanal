@@ -46,7 +46,7 @@ export default function One() {
                             <p>É um profissional do mercado financeiro com experiencia na intermediação de operações comerciais, conectando soluções personalizadas aos seus clientes.</p>
                         </div>
                         <div className="bg-[#6FFC2D] text-3xl p-5 font-bold text-center mx-4 mt-[-50px]" id="isMobile">
-                            Uma plataforma, várias soluções para seus clientes.
+                            Ecossistema completo com total autonomia
                         </div>
                         <div className="rounded-[32px] bg-[#121323] text-white p-12 mx-4 mt-4" id="isMobile">
                             <div className="text-3xl font-bold mb-4 ">Quem é o Banker do Kanal<span className="text-[#6D3BF2]">?</span></div>
