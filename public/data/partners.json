@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "path": "/assets/ico-partners/banco-do-brasil.svg"
+      },
+      {
+        "id": 2,
+        "path": "/assets/ico-partners/banrisul.png"
+      },
+      {
+        "id": 3,
+        "path": "/assets/ico-partners/bari.png"
+      },
+      {
+        "id": 4,
+        "path": "/assets/ico-partners/bradesco.png"
+      },
+      {
+        "id": 5,
+        "path": "/assets/ico-partners/BV.png"
+      },
+      {
+        "id": 6,
+        "path": "/assets/ico-partners/CAIXA.png"
+      },
+      {
+        "id": 7,
+        "path": "/assets/ico-partners/cashme.png"
+      },
+      {
+        "id": 8,
+        "path": "/assets/ico-partners/creditas.png"
+      },
+      {
+        "id": 9,
+        "path": "/assets/ico-partners/daycoval.png"
+      },
+      {
+        "id": 10,
+        "path": "/assets/ico-partners/itau.png"
+      },
+      {
+        "id": 11,
+        "path": "/assets/ico-partners/MAG.png"
+      },
+      {
+        "id": 13,
+        "path": "/assets/ico-partners/nexoos.png"
+      },
+      {
+        "id": 14,
+        "path": "/assets/ico-partners/pine.png"
+      },
+      {
+        "id": 15,
+        "path": "/assets/ico-partners/porto.png"
+      },
+      {
+        "id": 16,
+        "path": "/assets/ico-partners/Santander.png"
+      },
+      {
+        "id": 17,
+        "path": "/assets/ico-partners/sofisa.png"
+      }
+    ]
+}

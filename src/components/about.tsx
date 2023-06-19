@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ImageRotate from './imageRotate'
 
 export default function About() {
 
@@ -17,28 +18,7 @@ export default function About() {
                 </div>
             </div>
             <p className="mt-10 w-[600px] text-center max-sm:mx-8 max-sm:w-auto text-4xl">Confira alguns de nossos parceiros:</p>
-            <div className="mt-11 overflow-x-scroll" id="parteners">
-                <div className="flex flex-row my-10 h-10 gap-7 w-[550px] max-sm:w-[320px]">
-                    <img src="/assets/ico-partners/banco-do-brasil.svg" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/banrisul.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/bari.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/bradesco.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/BV.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/CAIXA.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/cashme.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/creditas.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/daycoval.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/inter.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/itau.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/MAG.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/nexoos.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/pine.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/porto.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/Santander.png" alt="detalhes imgm" />
-                    <img src="/assets/ico-partners/sofisa.png" alt="detalhes imagem" />
-                </div>
-            </div>
-            {/* <span className="w-[300px] min-h-[31px] mt-10 h-8 bg-[#FF0068]" /> */}
+            <ImageRotate speed="12000"/>
             <div className="flex flex-row items-center justify-around my-20 max-sm:flex-col">
                 <Image src="/assets/image/about.png" className="max-sm:w-full" alt="detalhes imagem" width={350} height={405} />
                 <div className="flex flex-col items-center justify-between h-96 relative right-20 max-sm:hidden" >
@@ -55,7 +35,6 @@ export default function About() {
                         <p>Conectamos possibilidades para os profissionais de negócios do mercado com um modelo inovador.</p>
                         <p className="mt-5">Garantindo um atendimento personalizado as necessidades dos seus clientes.</p>
                 </div>
-                
             </div>
         </div>
     )

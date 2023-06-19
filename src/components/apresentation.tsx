@@ -6,7 +6,7 @@ import Form from "./form";
 export default function Apresentation() {
     return (
         <section className="w-full h-auto flex flex-col items-center bg-[#191A30] max-sm:h-auto max-sm:items-stretch">
-            <div className="max-w-7xl">
+            <div className="max-w-[90rem]">
                 <div className="flex justify-between pt-12 max-sm:px-8">
                     <img src="/assets/image/logo.svg" alt="logo" />
                     {/* <Image src="/assets/image/logo.png" alt="logo" width={120} height={0}/> */}
@@ -22,8 +22,8 @@ export default function Apresentation() {
                         <p className="text-2xl mb-[25px]" id="isMobile">Ofereça os melhores produtos financeiros à sua carteira de clientes emum único lugar.</p>
                         <Form radioGroupPeriod="period-apresentation" radioGroupContact="period-contact"/>
                     </div>
-                    <div className="flex justify-around items-end mb-16">
-                        <Image src="/assets/image/athor.png" alt="logo" width={1000} height={720}/>
+                    <div className="flex w-full justify-around items-end mb-16">
+                        <img src="/assets/image/athor.png" alt="logo" />
                     </div>
                     
                 </div>

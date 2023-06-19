@@ -197,3 +197,30 @@
     display: none;
   }
 }
+
+.image {
+  max-width: 500px;
+  width: auto;
+  height: 2.5rem;
+  padding: 0 10px;
+  object-fit: fill;
+}
+
+.image:last-of-type {
+  padding-left: 0;
+}
+
+.section {
+  display: flex;
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
