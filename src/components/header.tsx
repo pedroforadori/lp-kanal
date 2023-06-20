@@ -10,7 +10,5 @@ export default function Header() {
                 <List size={32} className="text-white" />
             </Link>
         </div>        
-                    
-
     )
 } 
