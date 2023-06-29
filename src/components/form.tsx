@@ -17,10 +17,9 @@ export default function Form(props: IForm){
     const [ contactAt, setContactAt ] = useState<string>()
 
     async function handleSubimit(event: FormEvent){
-        debugger
         event.preventDefault();
 
-        await api.post('/post', {
+        await api.post('', {
             TITLE: `Novo cadastro ${name}`,
             NAME: name,
             EMAIL: [{ VALUE: email, VALUE_TYPE: 'WORK' }],
