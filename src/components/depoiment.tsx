@@ -14,7 +14,6 @@ export default function Depoiment() {
         { width: 1200, itemsToShow: 4 }
       ];
 
-
     return (
         <div className="w-full flex flex-col items-center bg-[#0E0E0E] text-white">
             {/* 

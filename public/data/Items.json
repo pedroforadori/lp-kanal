@@ -1,38 +1,6 @@
 {
     "items":  [
         {
-          "id": 1,
-          "depoiment": "O Kanal Open Finance me permite ter acesso, dentro de uma plataforma, aos melhores serviços bancários e financeiros do mercado. Me apoiam na condução das negociações com transparência e eficiência, até que o cliente receba o serviço ou produto ideal para sua necessidade.",
-          "name": "Thomaz Quintella",
-          "city": "São Bernardo do Campo - SP",
-          "type": "Banker do Kanal",
-          "photo": "/assets/image-depoiment/thomaz.png"
-        },
-        {
-          "id": 2,
-          "depoiment": "Atuei por 25 anos em bancos múltiplos e, como profissional de negócios, o Kanal Open Finance é a solução perfeita! De bancos múltiplos para múltiplos bancos! Conecta meu negócio a um universo de parceiros financeiros, permitindo oferecer aos meus clientes uma ampla gama de serviços, tudo em um único ambiente.",
-          "name": "Renato Peracolli",
-          "city": "São Paulo - SP",
-          "type": "Banker do Kanal",
-          "photo": "/assets/image-depoiment/renato.png"
-        },
-        {
-          "id": 3,
-          "depoiment": "A Kanal é uma plataforma inovadora, atualizada, ágil e sempre está buscando novas possibilidades de negócios para seus clientes e futuros parceiros para novos produtos. A proximidade, parceria e agilidade nos feedbacks é diferenciada e transparente, condição essencial para uma ótima relação!",
-          "name": "Claudia Novelli",
-          "city": "São Paulo - SP",
-          "type": "Banker do Kanal",
-          "photo": "/assets/image-depoiment/claudia.png"
-        },
-        {
-          "id": 4,
-          "depoiment": "O Kanal é a melhor plataforma de soluções financeiras para quem busca agilidade, qualidade e praticidade no seu dia a dia. Ela desburocratiza a vida do cliente trazendo soluções efetivas, práticas e rentáveis.",
-          "name": "Margareth Nogueira",
-          "city": "São Paulo - SP",
-          "type": "Banker do Kanal",
-          "photo": "/assets/image-depoiment/margarete.png"
-        },
-        {
           "id": 5,
           "depoiment": "Eu sou apaixonada pelo modelo de negócios da Kanal, pois através da plataforma, que eu mesma cadastro os clientes posso estudar a melhor condição de mercado para o cliente, não ficando alienada a uma única instituição.",
           "name": "Ana Paula Morgana",
@@ -49,12 +17,12 @@
           "photo": "/assets/image-depoiment/cezar.png"
         },
         {
-          "id":7,
-          "depoiment": "O Kanal Open Finance me permite ter acesso, dentro de uma plataforma, aos melhores serviços bancários e financeiros do mercado. Me apoiam na condução das negociações com transparência e eficiência, até que o cliente receba o serviço ou produto ideal para sua necessidade.",
-          "name": "John Peter Cunninguanam",
+          "id": 3,
+          "depoiment": "A Kanal é uma plataforma inovadora, atualizada, ágil e sempre está buscando novas possibilidades de negócios para seus clientes e futuros parceiros para novos produtos. A proximidade, parceria e agilidade nos feedbacks é diferenciada e transparente, condição essencial para uma ótima relação!",
+          "name": "Claudia Novelli",
           "city": "São Paulo - SP",
-          "type": "Cliente",
-          "photo": "/assets/image-depoiment/jpc.png"
+          "type": "Banker do Kanal",
+          "photo": "/assets/image-depoiment/claudia.png"
         },
         {
           "id":8,
@@ -63,6 +31,14 @@
           "city": "Florianópolis - SC",
           "type": "Expansão e Onboarding ",
           "photo": "/assets/image-depoiment/fernandatenente.png"
+        },
+        {
+          "id":7,
+          "depoiment": "O Kanal Open Finance me permite ter acesso, dentro de uma plataforma, aos melhores serviços bancários e financeiros do mercado. Me apoiam na condução das negociações com transparência e eficiência, até que o cliente receba o serviço ou produto ideal para sua necessidade.",
+          "name": "John Peter Cunninguanam",
+          "city": "São Paulo - SP",
+          "type": "Cliente",
+          "photo": "/assets/image-depoiment/jpc.png"
         },
         {
           "id":9,
@@ -79,6 +55,30 @@
           "city": "São José dos Campos - SP",
           "type": "Banker do Kanal",
           "photo": "/assets/image-depoiment/ludmila.png"
-        } 
+        },      
+        {
+          "id": 4,
+          "depoiment": "O Kanal é a melhor plataforma de soluções financeiras para quem busca agilidade, qualidade e praticidade no seu dia a dia. Ela desburocratiza a vida do cliente trazendo soluções efetivas, práticas e rentáveis.",
+          "name": "Margareth Nogueira",
+          "city": "São Paulo - SP",
+          "type": "Banker do Kanal",
+          "photo": "/assets/image-depoiment/margarete.png"
+        },
+        {
+          "id": 2,
+          "depoiment": "Atuei por 25 anos em bancos múltiplos e, como profissional de negócios, o Kanal Open Finance é a solução perfeita! De bancos múltiplos para múltiplos bancos! Conecta meu negócio a um universo de parceiros financeiros, permitindo oferecer aos meus clientes uma ampla gama de serviços, tudo em um único ambiente.",
+          "name": "Renato Peracolli",
+          "city": "São Paulo - SP",
+          "type": "Banker do Kanal",
+          "photo": "/assets/image-depoiment/renato.png"
+        },
+        {
+          "id": 1,
+          "depoiment": "O Kanal Open Finance me permite ter acesso, dentro de uma plataforma, aos melhores serviços bancários e financeiros do mercado. Me apoiam na condução das negociações com transparência e eficiência, até que o cliente receba o serviço ou produto ideal para sua necessidade.",
+          "name": "Thomaz Quintella",
+          "city": "São Bernardo do Campo - SP",
+          "type": "Banker do Kanal",
+          "photo": "/assets/image-depoiment/thomaz.png"
+        }
       ]
   }

@@ -8,6 +8,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@400;500;600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" />
+        <link rel="shortcut icon" href="/assets/ico/logo-ico.ico" />
       </Head>
       <body className="font-primaryHurme">
         <Main />
