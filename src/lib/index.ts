@@ -8,5 +8,5 @@ export const api = axios.create({
         'Access-Control-Allow-Methods': 'GET,HEAD,OPTIONS,POST,PUT',
         'Access-Control-Allow-Headers': '*',
     },
-    baseURL: 'https://kanal.com.br/api/bitrix/banker-lead',
+    baseURL: 'https://marketplace-api-v2.kanal.com.br/public/api/bitrix/banker-lead',
 })
