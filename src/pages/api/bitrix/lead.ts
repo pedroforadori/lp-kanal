@@ -47,7 +47,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 }
 
 function handlePOSTLead(req: NextApiRequest, res: NextApiResponse<IPostLeadBankerResponse>) {
-  const { bankerInfo }: IPostLeadBankerPayload = req.body;
+  const { bankerInfo }: any = req.body;
 
   const lastName = bankerInfo.name.split(' ')?.slice(-1)?.pop();
 
@@ -98,7 +98,7 @@ params[REGISTER_SONET_EVENT]=Y`.replace(/\n/g, '');
 }
 
 function handleNewPOST(req: NextApiRequest, res: NextApiResponse<IPostLeadBankerResponse>) {
-  const { bankerInfo }: IPostLeadBankerPayload = req.body;
+  const { bankerInfo }: any = req.body;
 
   const lastName = bankerInfo.name.split(' ')?.slice(-1)?.pop();
 
