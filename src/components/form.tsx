@@ -30,7 +30,6 @@ export default function Form(props: IForm){
     async function handleSubimit(event: FormEvent){
         event.preventDefault();
         
-        debugger    
         await BitrixServices.postLeadBanker({
             TITLE: `Novo cadastro ${name}`,
             NAME: name,

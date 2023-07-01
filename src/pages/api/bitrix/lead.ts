@@ -54,8 +54,6 @@ function handlePOSTLead(req: NextApiRequest, res: NextApiResponse<IPostLeadBanke
   const newCard: any = {
     TITLE: `${DEFAULT_CARD_NAME} ${bankerInfo.name}`,
     NAME: bankerInfo.name,
-    // LAST_NAME: bankerInfo.surname,
-    CPF: bankerInfo.cpf,
     EMAIL: [{ VALUE: bankerInfo.email, VALUE_TYPE: 'WORK' }],
     PHONE: [{ VALUE: '55 ' + bankerInfo.tel, VALUE_TYPE: 'WORK' }],
     WEB: bankerInfo.linkedinURL,
@@ -98,14 +96,13 @@ params[REGISTER_SONET_EVENT]=Y`.replace(/\n/g, '');
 
 function handleNewPOST(req: NextApiRequest, res: NextApiResponse<IPostLeadBankerResponse>) {
   const { bankerInfo }: any = req.body;
+  debugger
 
   const lastName = bankerInfo.name.split(' ')?.slice(-1)?.pop();
 
   const newCard: any = {
     TITLE: `${DEFAULT_CARD_NAME} ${bankerInfo.name}`,
     NAME: bankerInfo.name,
-    // LAST_NAME: lastName || ' ',
-    LAST_NAME: '',
     EMAIL: [{ VALUE: bankerInfo.email, VALUE_TYPE: 'WORK' }],
     PHONE: [{ VALUE: '55 ' + bankerInfo.tel, VALUE_TYPE: 'WORK' }],
     WEB: bankerInfo.linkedinURL,
