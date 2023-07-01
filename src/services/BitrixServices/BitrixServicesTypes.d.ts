@@ -1,16 +1,18 @@
 
 /* Resource model */
 interface IBankerCadInfoBitrix {
-  tel: string;
-  cpf: string;
-  name: string;
-  email: string;
-  linkedinURL: string;
+    phone: string;
+    name: string;
+    email: string;
+    linkedinUrl: string;
+    policies: boolean;
+    status: string;
+    contactAt: string;
 }
 
 /* Services Payload & Response models */
 interface IPostLeadBankerPayload {
-  bankerInfo: IBankerCadInfoBitrix;
+ // bankerInfo: IBankerCadInfoBitrix;
 }
 interface IPostLeadBankerResponse {
   status: string;

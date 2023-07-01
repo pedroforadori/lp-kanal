@@ -3,14 +3,13 @@ import { api } from "../lib";
 import BitrixServices from "../services/BitrixServices";
 
 interface INewFormCadBanker {
-    tel: string;
-    cpf: string;
+    phone: string;
     name: string;
     email: string;
-    linkedinURL: string;
-    hasWhatsAppBig?: boolean;
-    hasWhatsAppSmall?: boolean;
+    linkedinUrl: string;
     policies: boolean;
+    status: string;
+    contactAt: string;
   }
 
 interface IForm{
@@ -18,7 +17,7 @@ interface IForm{
     radioGroupContact: string
 }
 
-export default function Form(props: IForm, data: INewFormCadBanker){
+export default function Form(props: IForm){
 
     const [ email, setEmail ] = useState<string>()
     const [ name, setName ] = useState<string>()
@@ -30,8 +29,19 @@ export default function Form(props: IForm, data: INewFormCadBanker){
 
     async function handleSubimit(event: FormEvent){
         event.preventDefault();
-
-        await BitrixServices.postLeadBanker({ bankerInfo: data })
+        
+        debugger    
+        await BitrixServices.postLeadBanker({
+            TITLE: `Novo cadastro ${name}`,
+            NAME: name,
+            EMAIL: [{ VALUE: email, VALUE_TYPE: 'WORK' }],
+            PHONE: [{ VALUE: '55 ' + phone, VALUE_TYPE: 'WORK' }],
+            WEB: linkedinUrl,
+            CONTACT_AT: contactAt,  
+            OCCUPATION: occupation,  
+            STATUS_ID: 'NEW',
+            OPENED: status,
+        })
 
     }
 
