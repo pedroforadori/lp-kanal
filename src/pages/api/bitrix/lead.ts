@@ -51,11 +51,10 @@ function handlePOSTLead(req: NextApiRequest, res: NextApiResponse<IPostLeadBanke
 
   const lastName = bankerInfo.name.split(' ')?.slice(-1)?.pop();
 
-  const newCard: IBitrixLeadFields = {
+  const newCard: any = {
     TITLE: `${DEFAULT_CARD_NAME} ${bankerInfo.name}`,
     NAME: bankerInfo.name,
     // LAST_NAME: bankerInfo.surname,
-    LAST_NAME: lastName || ' ',
     CPF: bankerInfo.cpf,
     EMAIL: [{ VALUE: bankerInfo.email, VALUE_TYPE: 'WORK' }],
     PHONE: [{ VALUE: '55 ' + bankerInfo.tel, VALUE_TYPE: 'WORK' }],
@@ -102,12 +101,11 @@ function handleNewPOST(req: NextApiRequest, res: NextApiResponse<IPostLeadBanker
 
   const lastName = bankerInfo.name.split(' ')?.slice(-1)?.pop();
 
-  const newCard: IBitrixLeadFields = {
+  const newCard: any = {
     TITLE: `${DEFAULT_CARD_NAME} ${bankerInfo.name}`,
     NAME: bankerInfo.name,
     // LAST_NAME: lastName || ' ',
     LAST_NAME: '',
-    CPF: bankerInfo.cpf,
     EMAIL: [{ VALUE: bankerInfo.email, VALUE_TYPE: 'WORK' }],
     PHONE: [{ VALUE: '55 ' + bankerInfo.tel, VALUE_TYPE: 'WORK' }],
     WEB: bankerInfo.linkedinURL,
@@ -115,7 +113,7 @@ function handleNewPOST(req: NextApiRequest, res: NextApiResponse<IPostLeadBanker
     OPENED: 'Y',
   };
 
-  const url = `${MARKETPLACE_BACKEND_HOST}/public/api/bitrix/banker-lead`;
+  const url = `https://marketplace-api-v2.kanal.com.br/public/api/bitrix/banker-lead`;
 
   return Service.post(url, newCard, {
     headers: {
