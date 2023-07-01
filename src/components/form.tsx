@@ -1,12 +1,24 @@
 import { FormEvent, useState } from "react";
 import { api } from "../lib";
+import BitrixServices from "../services/BitrixServices";
+
+interface INewFormCadBanker {
+    tel: string;
+    cpf: string;
+    name: string;
+    email: string;
+    linkedinURL: string;
+    hasWhatsAppBig?: boolean;
+    hasWhatsAppSmall?: boolean;
+    policies: boolean;
+  }
 
 interface IForm{
     radioGroupPeriod: string
     radioGroupContact: string
 }
 
-export default function Form(props: IForm){
+export default function Form(props: IForm, data: INewFormCadBanker){
 
     const [ email, setEmail ] = useState<string>()
     const [ name, setName ] = useState<string>()
@@ -19,17 +31,7 @@ export default function Form(props: IForm){
     async function handleSubimit(event: FormEvent){
         event.preventDefault();
 
-        await api.post('', {
-            TITLE: `Novo cadastro ${name}`,
-            NAME: name,
-            EMAIL: [{ VALUE: email, VALUE_TYPE: 'WORK' }],
-            PHONE: [{ VALUE: '55 ' + phone, VALUE_TYPE: 'WORK' }],
-            WEB: linkedinUrl,
-            CONTACT_AT: contactAt,  
-            OCCUPATION: occupation,  
-            STATUS_ID: 'NEW',
-            OPENED: status,
-        })
+        await BitrixServices.postLeadBanker({ bankerInfo: data })
 
     }
 
