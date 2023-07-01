@@ -96,18 +96,20 @@ params[REGISTER_SONET_EVENT]=Y`.replace(/\n/g, '');
 
 function handleNewPOST(req: NextApiRequest, res: NextApiResponse<IPostLeadBankerResponse>) {
   const { bankerInfo }: any = req.body;
-  debugger
-
+  console.log(bankerInfo)
   const lastName = bankerInfo.name.split(' ')?.slice(-1)?.pop();
 
   const newCard: any = {
     TITLE: `${DEFAULT_CARD_NAME} ${bankerInfo.name}`,
     NAME: bankerInfo.name,
+    // LAST_NAME: lastName || ' ',
     EMAIL: [{ VALUE: bankerInfo.email, VALUE_TYPE: 'WORK' }],
     PHONE: [{ VALUE: '55 ' + bankerInfo.tel, VALUE_TYPE: 'WORK' }],
     WEB: bankerInfo.linkedinURL,
+    CONTACT_AT: bankerInfo.contactAt,  
+    OCCUPATION: bankerInfo.occupation,  
     STATUS_ID: 'NEW',
-    OPENED: 'Y',
+    OPENED: bankerInfo.status,
   };
 
   const url = `https://marketplace-api-v2.kanal.com.br/public/api/bitrix/banker-lead`;

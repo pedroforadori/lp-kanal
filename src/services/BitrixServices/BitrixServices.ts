@@ -3,7 +3,6 @@ import { AxiosResponse } from 'axios';
 
 
 function postLeadBanker(payload: IPostLeadBankerPayload): Promise<AxiosResponse<IPostLeadBankerResponse>> {
-
   return Service.post<IBankerCadInfoBitrix, AxiosResponse<IPostLeadBankerResponse>>('/bitrix/lead', payload)
 }
 
