@@ -1,6 +1,5 @@
 import { FormEvent, useState } from "react";
 import { api } from "../lib";
-import BitrixServices from "../services/BitrixServices";
 
 interface INewFormCadBanker {
     phone: string;
@@ -30,7 +29,7 @@ export default function Form(props: IForm){
     async function handleSubimit(event: FormEvent){
         event.preventDefault();
         
-        await BitrixServices.postLeadBanker({
+        await api.post('/bitrix/banker-lead',{
             TITLE: `Novo cadastro ${name}`,
             NAME: name,
             EMAIL: [{ VALUE: email, VALUE_TYPE: 'WORK' }],
