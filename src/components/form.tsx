@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import { api } from "../lib";
+import Swal from 'sweetalert2'
 
 interface INewFormCadBanker {
     phone: string;
@@ -25,6 +26,7 @@ export default function Form(props: IForm){
     const [ occupation, setOccupation ] = useState<string>()
     const [ status, setStatus ] = useState<string>()
     const [ contactAt, setContactAt ] = useState<string>()
+    const [swalProps, setSwalProps] = useState({});
 
     async function handleSubimit(event: FormEvent){
         event.preventDefault();
@@ -39,6 +41,18 @@ export default function Form(props: IForm){
             OCCUPATION: occupation,  
             STATUS_ID: 'NEW',
             OPENED: status,
+        }).then(() => {
+            Swal.fire({
+                icon: 'success',
+                title: 'Obrigado',
+                text: "Cadastro realizado com sucesso.",
+              })
+        }).catch(() => {
+            Swal.fire({
+                icon: 'error',
+                title: 'Erro',
+                text: "Houve um erro na sua solicitação, tente novamente mais tarde.",
+              })
         })
 
     }
