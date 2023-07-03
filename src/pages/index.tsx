@@ -9,10 +9,14 @@ import Question from "../components/question";
 import NewBanker from "../components/new-banker";
 import Footer from "../components/footer";
 import DepoimentMobile from "../components/depoiment-mobile";
+import Head from "next/head";
 
 export default function Index() {
   return (
     <>
+      <Head>
+        <title>Kanal Open Finance</title>
+      </Head>
       <Apresentation />
       <One />
       <Two />
