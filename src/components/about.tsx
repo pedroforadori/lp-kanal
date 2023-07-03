@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ImageRotate from './imageRotate'
+import ImageRotate from './image-rotate'
 
 export default function About() {
 
