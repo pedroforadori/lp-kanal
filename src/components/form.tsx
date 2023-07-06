@@ -32,7 +32,7 @@ export default function Form(props: IForm){
         event.preventDefault();
         
         await api.post('/bitrix/banker-lead',{
-            TITLE: `Novo cadastro ${name}`,
+            TITLE: name,
             NAME: name,
             EMAIL: [{ VALUE: email, VALUE_TYPE: 'WORK' }],
             PHONE: [{ VALUE: '55 ' + phone, VALUE_TYPE: 'WORK' }],
