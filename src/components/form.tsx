@@ -1,6 +1,7 @@
 import { FormEvent, useState } from "react";
 import { api } from "../lib";
 import Swal from 'sweetalert2'
+import Link from "next/link";
 
 interface INewFormCadBanker {
     phone: string;
@@ -188,7 +189,7 @@ export default function Form(props: IForm){
            <hr className="mt-4 h-px my-8 bg-[#2A2B4F] border-0 " />
            <div className="flex flex-row justify-around items-center my-16 
                            max-sm:flex-col ">
-             <p className="text-xs mt-3 text-white max-sm:mb-4">Ao clicar em &#34;quero ser banker&#34; você aceita os termos <br className="max-sm:hidden" /> e condições do Kanal Open Finance.</p>
+             <p className="text-xs mt-3 text-white max-sm:mb-4">Ao clicar em &#34;quero ser banker&#34; você <Link className="underline" target="_blank" href="https://kanal-termos-uso.s3.sa-east-1.amazonaws.com/termos-de-uso-kanal-2.1.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=90"> aceita os termos <br className="max-sm:hidden" /> e condições</Link> do Kanal Open Finance.</p>
              <button className="bg-[#FF4C00] rounded-lg max-sm:w-full py-3 px-6" type="submit">Quero ser um banker</button>
            </div>
         </form>
