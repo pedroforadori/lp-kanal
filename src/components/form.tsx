@@ -68,6 +68,7 @@ export default function Form(props: IForm){
                     placeholder="Seu nome" 
                     value={name}
                     onChange={(event) => setName(event.target.value)} 
+                    required
                 />
             </div>
             <div className="grid grid-cols-2 text-white max-sm:flex max-sm:flex-col">
@@ -78,7 +79,8 @@ export default function Form(props: IForm){
                         type="text" 
                         placeholder="Insira seu melhor e-mail" 
                         value={email}
-                        onChange={(event) => setEmail(event.target.value)}    
+                        onChange={(event) => setEmail(event.target.value)}
+                        required    
                     />
                 </div>
                 <div className="flex flex-col ml-4 mt-2 max-sm:ml-0">
@@ -88,7 +90,8 @@ export default function Form(props: IForm){
                         type="text" 
                         placeholder="URL do seu Perfil do Linkedin" 
                         value={linkedinUrl}
-                        onChange={(event) => setLinkedinUrl(event.target.value)} 
+                        onChange={(event) => setLinkedinUrl(event.target.value)}
+                        required 
                     />
                 </div>
                 <div className="flex flex-col max-sm:mt-4 mt-2">
@@ -98,7 +101,8 @@ export default function Form(props: IForm){
                         type="text" 
                         placeholder="(00) 00000-0000" 
                         value={phone}
-                        onChange={(event) => setPhone(event.target.value)} 
+                        onChange={(event) => setPhone(event.target.value)}
+                        required 
                     />
                 </div> 
                 <div className="flex flex-col max-sm:mt-4 max-sm:ml-0 ml-4 mt-2">
@@ -108,7 +112,8 @@ export default function Form(props: IForm){
                         name="select" 
                         id="select"
                         value={occupation}
-                        onChange={(event) => setOccupation(event.target.value)} 
+                        onChange={(event) => setOccupation(event.target.value)}
+                        required 
                     >
                         <option value="Bancos">Bancos</option>
                         <option value="Investimentos">Investimentos</option>
@@ -129,7 +134,8 @@ export default function Form(props: IForm){
                                 name={props.radioGroupContact} 
                                 id={`s${props.radioGroupContact}`} 
                                 value="Y" 
-                                onChange={(event) => setStatus(event.target.value)} 
+                                onChange={(event) => setStatus(event.target.value)}
+                                required 
                             /> 
                             <label htmlFor={`s${props.radioGroupContact}`}>Sim</label>
                         </div>
@@ -140,7 +146,8 @@ export default function Form(props: IForm){
                                 name={props.radioGroupContact} 
                                 id={`n${props.radioGroupContact}`} 
                                 value="N" 
-                                onChange={(event) => setStatus(event.target.value)} 
+                                onChange={(event) => setStatus(event.target.value)}
+                                required 
                             /> 
                             <label className="active:bg-[#121323] focus:bg-[#121323] " htmlFor={`n${props.radioGroupContact}`}>Não</label>
                         </div>
@@ -156,7 +163,8 @@ export default function Form(props: IForm){
                                 name={props.radioGroupPeriod} 
                                 id={`manha${props.radioGroupPeriod}`}
                                 value="manha" 
-                                onChange={(event) => setContactAt(event.target.value)} 
+                                onChange={(event) => setContactAt(event.target.value)}
+                                required 
                             /> 
                             <label htmlFor={`manha${props.radioGroupPeriod}`}>Manhã</label>
                         </div>
@@ -167,7 +175,8 @@ export default function Form(props: IForm){
                                 name={props.radioGroupPeriod} 
                                 id={`tarde${props.radioGroupPeriod}`}
                                 value="tarde" 
-                                onChange={(event) => setContactAt(event.target.value)} 
+                                onChange={(event) => setContactAt(event.target.value)}
+                                required 
                             /> 
                             <label htmlFor={`tarde${props.radioGroupPeriod}`}>Tarde</label>
                         </div>
@@ -178,7 +187,8 @@ export default function Form(props: IForm){
                                 name={props.radioGroupPeriod} 
                                 id={`noite${props.radioGroupPeriod}`}
                                 value="noite" 
-                                onChange={(event) => setContactAt(event.target.value)} 
+                                onChange={(event) => setContactAt(event.target.value)}
+                                required 
                             />
                             <label htmlFor={`noite${props.radioGroupPeriod}`}>Noite</label> 
                         </div>
