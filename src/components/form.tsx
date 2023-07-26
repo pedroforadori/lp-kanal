@@ -31,7 +31,7 @@ export default function Form(props: IForm){
 
     async function handleSubimit(event: FormEvent){
         event.preventDefault();
-        
+       
         await api.post('/bitrix/banker-lead',{
             TITLE: name,
             NAME: name,
@@ -91,7 +91,6 @@ export default function Form(props: IForm){
                         placeholder="URL do seu Perfil do Linkedin" 
                         value={linkedinUrl}
                         onChange={(event) => setLinkedinUrl(event.target.value)}
-                        required 
                     />
                 </div>
                 <div className="flex flex-col max-sm:mt-4 mt-2">
@@ -115,6 +114,7 @@ export default function Form(props: IForm){
                         onChange={(event) => setOccupation(event.target.value)}
                         required 
                     >
+                        <option>Selecione uma área</option>
                         <option value="Bancos">Bancos</option>
                         <option value="Investimentos">Investimentos</option>
                         <option value="Seguros">Seguros</option>
@@ -188,7 +188,7 @@ export default function Form(props: IForm){
                                 id={`noite${props.radioGroupPeriod}`}
                                 value="noite" 
                                 onChange={(event) => setContactAt(event.target.value)}
-                                required 
+                                required
                             />
                             <label htmlFor={`noite${props.radioGroupPeriod}`}>Noite</label> 
                         </div>
