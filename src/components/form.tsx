@@ -41,7 +41,7 @@ export default function Form(props: IForm){
             CONTACT_AT: contactAt,  
             OCCUPATION: occupation,  
             STATUS_ID: 'NEW',
-            OPENED: status,
+            CUSTUMER_PORTIFOLIO: status,
         }).then(() => {
             Swal.fire({
                 icon: 'success',
