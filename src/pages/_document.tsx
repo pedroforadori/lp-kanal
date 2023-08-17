@@ -27,6 +27,7 @@ export default function Document() {
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P92PPNX" height="0" width="0" style="display: none; visibility: hidden;" />`,
           }}
         />
+        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/1eb1b3a6-8182-426d-b26d-4289906334ca-loader.js" ></script>
       </body>
     </Html>
   )
