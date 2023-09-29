@@ -23,7 +23,7 @@ export default function NewBanker() {
                                 <div className="flex flex-row gap-6 mt-4">
                                 <Link 
                                     className="max-sm:w-full flex justify-center items-center text-white px-10 py-4 bg-[#6D3BF2] rounded-lg gap-[10px]" 
-                                    href="https://wa.me/5511940159875?text=Ola,%20gostaria%20de%20mais%20informações%20para%20ser%20banker%20do%20Kanal%20Open%20Finance."
+                                    href="https://wa.me/5511989848872?text=Ola,%20gostaria%20de%20mais%20informações%20para%20ser%20banker%20do%20Kanal%20Open%20Finance."
                                 >
                                     <WhatsappLogo size={40} />
                                 </Link>
